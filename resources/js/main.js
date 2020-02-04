@@ -44,19 +44,19 @@ $(document).ready(function() {
 			overlayParentElement : 'body',
 			transition: function(url){ window.location.href = url; }
 	});
-		
+
 	$('body').on('animsition.outStart', function(){
 		$('body').removeClass('active');
 		$('body').addClass('out');
 	})
-	
+
 	$('body').on('animsition.inEnd', function(){
 		$('body').addClass('active');
 		$('body').addClass('in');
-		setTimeout(function () {      
-				$("body").addClass("anim"); 
+		setTimeout(function () {
+				$("body").addClass("anim");
 		}, 1000);
-		
+
 		/* 3. Swiper slider */
 		var interleaveOffset = 0.5;
 
@@ -86,7 +86,7 @@ $(document).ready(function() {
 						var innerTranslate = slideProgress * innerOffset;
 						swiper.slides[i].querySelector(".slide-bg").style.transform =
 									"translate3d(" + innerTranslate + "px, 0, 0)";
-							}      
+							}
 					},
 					touchStart: function() {
 							var swiper = this;
@@ -104,7 +104,7 @@ $(document).ready(function() {
 					}
 				}
 		});
-			
+
 		var swiper = new Swiper ('.testimonials-slider', {
 				speed: 1200,
 				autoplay: {
@@ -118,7 +118,7 @@ $(document).ready(function() {
 				clickable: true
 					}
 			});
-				
+
 			var swiper = new Swiper ('.about-slider', {
 				slidesPerView: 2,
 				spaceBetween: 30,
@@ -135,7 +135,7 @@ $(document).ready(function() {
 					}
 			}
 			});
-			
+
 			var mySwiper = new Swiper(".portfolio-slider", {
 			direction: "vertical",
 			navigation: {
@@ -178,7 +178,7 @@ $(document).ready(function() {
 				sensitivity: 1
 				}
 		});
-			
+
 			var swiper = new Swiper ('.portfolio-slider2', {
 				slidesPerView: 2,
 				spaceBetween: 30,
@@ -198,7 +198,7 @@ $(document).ready(function() {
 					}
 			}
 			});
-			
+
 			/* 4. Isotope filter */
 		function projectFilter() {
 			var $gridt = $('.works');
@@ -217,36 +217,36 @@ $(document).ready(function() {
 		projectFilter();
 
 	});
-			
+
 		/* 5. Midnight */
 		$('.fixed-header').midnight();
-	
+
 	/* 6. Navigation open/close */
 	$( ".menu-open" ).on( "click", function() {
 			$('.menu-open, .nav-container').addClass('active');
 	});
-	
+
 	$( ".menu-close" ).on( "click", function() {
 			$('.menu-open, .nav-container').removeClass('active');
 	});
-	
+
 	/* 7. Drop-down menu */
 	$('.dropdown-open').on("click",function(){
 			$(this).find('.dropdown').addClass('active');
 			$('.nav-link').addClass('done');
 			$('.dropdown-close').addClass('active');
 	});
-	
-	$('.dropdown-close').on("click",function(){    
+
+	$('.dropdown-close').on("click",function(){
 			$('.dropdown').removeClass('active');
 			$('.nav-link').removeClass('done');
 			$('.dropdown-close').removeClass('active');
 	});
 
 });
-	
+
 /* 8. Change menu background */
-$(document).on('mouseover', '.nav-bg-change', function(){		
+$(document).on('mouseover', '.nav-bg-change', function(){
 	$(this).addClass('active').siblings().removeClass('active')
 });
 
@@ -309,7 +309,7 @@ var supports = (function() {
 })();
 
 /* 14. fixed footer */
-$('footer').footerReveal({ 
+$('footer').footerReveal({
 	shadow: false,
 	zIndex : 1
 });

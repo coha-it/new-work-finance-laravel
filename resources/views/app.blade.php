@@ -3,15 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>New Work Finance</title>
-
-		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7COswald:300,400,500,600,700" rel="stylesheet" type="text/css">
-
-		<!-- styles -->
-        <link href="assets/css/plugins.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 	</head>
 	<body class="loader">
 		<!-- loading start -->
@@ -29,7 +23,7 @@
 		    <!-- header-flex-box start -->
 			<div class="header-flex-box">
 			    <!-- logo start -->
-				<a href="index.html" class="logo pointer-large animsition-link">
+				<a href="/" class="logo pointer-large animsition-link">
 					<div class="logo-img-box">
 				        <img class="logo-white" src="assets/images/logo/logo-coha-wg-2z.png" alt="logo">
 				        <img class="logo-black" src="assets/images/logo/logo-coha-s-2z.png" alt="logo">
@@ -63,127 +57,44 @@
 			<!-- nav-menu start -->
 			<ul class="nav-menu dark-bg-1">
 				<!-- nav-box start -->
-				<li class="nav-box nav-bg-change active dropdown-open">
-					<a class="pointer-large nav-link">
-						<span class="nav-btn active" data-text="Home">Home</span>
-					</a>
-
-					<!-- dropdown start -->
-					<ul class="dropdown">
-						<li class="nav-box">
-							<a href="index.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Slider Home">Slider Home</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="video_home.html" class="animsition-link pointer-large">
-								<span class="nav-btn active" data-text="Video Bg">Video Bg</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="home_fullscreen.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Fullscreen Bg">Fullscreen Bg</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="home_particles.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Particles">Particles</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="home_typewriter.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Typewriter">Typewriter</span>
-							</a>
-						</li>
-					</ul><!-- dropdown end -->
-
-					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/pexels-photo-1806031.jpeg);"></div>
-				</li><!-- nav-box end -->
-				<!-- nav-box start -->
 				<li class="nav-box nav-bg-change">
-					<a href="about.html" class="animsition-link pointer-large nav-link">
-						<span class="nav-btn" data-text="About">About</span>
+					<a href="/" class="animsition-link pointer-large nav-link">
+						<span class="nav-btn" data-text="Digitalisierung">Startseite</span>
 					</a>
-					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/adolescent-adult-diversity-1034361.jpg);"></div>
-				</li><!-- nav-box end -->
-				<!-- nav-box start -->
+					<div class="nav-bg" style="background-image:url(assets/images/projects/startseite/frankfurt-body-of-water-near-trees-1124460.jpg);"></div>
+                </li><!-- nav-box end -->
+
 				<li class="nav-box nav-bg-change">
-					<a href="services.html" class="animsition-link pointer-large nav-link">
-						<span class="nav-btn" data-text="Services">Services</span>
+					<a href="#Digitalisierung" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+						<span class="nav-btn" data-text="Digitalisierung">Digitalisierung</span>
 					</a>
-					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/bald-casual-facial-hair-1708528.jpg);"></div>
-				</li><!-- nav-box end -->
-				<!-- nav-box start -->
-				<li class="nav-box nav-bg-change dropdown-open">
-					<a class="pointer-large nav-link">
-						<span class="nav-btn" data-text="Portfolio">Portfolio</span>
+					<div class="nav-bg" style="background-image:url(assets/images/projects/digitalisierung/AdobeStock_233493970.jpg);"></div>
+                </li><!-- nav-box end -->
+
+				<li class="nav-box nav-bg-change">
+					<a href="#Inviting" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+						<span class="nav-btn" data-text="Inviting">Inviting</span>
 					</a>
+					<div class="nav-bg" style="background-image:url(assets/images/projects/inviting/inviting-AdobeStock_74172486.jpg);"></div>
+                </li><!-- nav-box end -->
 
-					<!-- dropdown start -->
-					<ul class="dropdown">
-						<li class="nav-box">
-							<a href="portfolio.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Standard">Standard</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="portfolio_full_screen.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="FullScreen">FullScreen</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="portfolio_slider.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Slider 1">Slider 1</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="portfolio_columns_slider.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Slider 2">Slider 2</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="portfolio_filter.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Filter">Filter</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="project.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Single project">Single project</span>
-							</a>
-						</li>
-					</ul><!-- dropdown end -->
-
-					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/art-artistic-artsy-1988681.jpg);"></div>
-				</li><!-- nav-box end -->
-				<!-- nav-box start -->
-				<li class="nav-box nav-bg-change dropdown-open">
-					<a class="pointer-large nav-link">
-						<span class="nav-btn" data-text="Blog">Blog</span>
+				<li class="nav-box nav-bg-change">
+					<a href="#Fusion" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+						<span class="nav-btn" data-text="Fusion">Fusion</span>
 					</a>
+					<div class="nav-bg" style="background-image:url(assets/images/projects/fusion/fusion-1.jpg);"></div>
+                </li><!-- nav-box end -->
 
-					<!-- dropdown start -->
-					<ul class="dropdown">
-						<li class="nav-box">
-							<a href="blog.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Blog">Blog</span>
-							</a>
-						</li>
-						<li class="nav-box">
-							<a href="single_post.html" class="animsition-link pointer-large">
-								<span class="nav-btn" data-text="Single post">Single post</span>
-							</a>
-						</li>
-					</ul><!-- dropdown end -->
-
-					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/beautiful-black-close-up-1689731.jpg);"></div>
-				</li><!-- nav-box end -->
-				<!-- nav-box start -->
+{{--
+                <!-- nav-box start -->
 				<li class="nav-box nav-bg-change">
 					<a href="contact.html" class="animsition-link pointer-large nav-link">
 						<span class="nav-btn" data-text="Contact">Contact</span>
 					</a>
 					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/double-exposure-2390185_1920.jpg);"></div>
-				</li><!-- nav-box end -->
+                </li><!-- nav-box end -->
+--}}
+
 			</ul><!-- nav-menu end -->
 		</nav><!-- nav-container end -->
 
@@ -200,7 +111,7 @@
 	  			<div class="flex-min-height-inner">
 		  			<!-- container start -->
 		  			<div class="container top-bottom-padding-120">
-		  				<h2 class="overlay-loading2 medium-title red-color">New Work Finance</h2>
+		  				<h2 class="overlay-loading2 medium-title gold-color">New Work Finance</h2>
 				  	  <h3 class="large-title-bold text-color-4">
 						  	<span class="overlay-loading2 overlay-light-bg-1 tr-delay01">Mit Innovation zum </span><br>
 						  	<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Vorreiter der </span><br>
@@ -284,7 +195,7 @@
         <!-- container end -->
 
 				<!-- bottom-padding-90 start -->
-				<div class="bottom-padding-90">
+				<div class="bottom-padding-90" id="Digitalisierung">
 					<!-- portfolio-content start -->
 					<div class="portfolio-content flex-min-height-box">
 						<!-- portfolio-content-inner start -->
@@ -294,7 +205,7 @@
 								<!-- column start -->
 								<div data-animation-container class="six-columns">
 									<div class="top-padding-40 content-right-margin-40">
-										<!-- <span class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">Digitalisierung</span> -->
+										<!-- <span class="small-title-oswald gold-color overlay-anim-box2" data-animation="overlay-anim2">Digitalisierung</span> -->
 										<h3 class="title-style text-color-1">
 											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Aufbruchsstimmung in der </span><br>
 											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Digitalisierung!</span><br>
@@ -331,18 +242,13 @@
                       </div>
                       <div class="after"></div>
                     </div>
-
-										<!-- <div data-animation-child class="arrow-btn-box top-margin-30 fade-anim-box tr-delay05" data-animation="fade-anim">
-											<a href="project.html" class="arrow-btn pointer-large animsition-link">Mehr erfahren</a>
-										</div> -->
-
 									</div>
 								</div><!-- column end -->
 								<!-- column start -->
 								<div class="six-columns top-padding-60">
-									<a href="project.html" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+									<div class="portfolio-content-bg-box pointer-large hover-box hidden-box">
 										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/digitalisierung/AdobeStock_233493970.jpg)"></div>
-									</a>
+                                    </div>
 								</div><!-- column end -->
 							</div><!-- flex-container end -->
 						</div><!-- portfolio-content-inner end -->
@@ -350,7 +256,7 @@
 				</div><!-- bottom-padding-90 end -->
 
 				<!-- bottom-padding-90 start -->
-				<div class="bottom-padding-90">
+				<div class="bottom-padding-90" id="Inviting">
 					<!-- portfolio-content start -->
 					<div class="portfolio-content flex-min-height-box">
 						<!-- portfolio-content-inner start -->
@@ -359,14 +265,14 @@
 							<div class="flex-container reverse container small">
 								<!-- column start -->
 								<div class="six-columns top-padding-60">
-									<a href="project.html" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+									<div class="portfolio-content-bg-box pointer-large hover-box hidden-box">
 										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/inviting/inviting-AdobeStock_74172486.jpg)"></div>
-									</a>
+									</div>
 								</div><!-- column end -->
 								<!-- column start -->
 								<div data-animation-container class="six-columns top-padding-60 bottom-padding-60">
 									<div class="content-left-margin-40">
-										<!-- <span class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">Graphic Design</span> -->
+										<!-- <span class="small-title-oswald gold-color overlay-anim-box2" data-animation="overlay-anim2">Graphic Design</span> -->
 										<h3 class="title-style text-color-1">
 											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Inviting statt Recruiting!</span><br>
 											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03 small-title-oswald" data-animation="overlay-anim2">Fachkräftemagnet trotz Krise</span><br>
@@ -400,7 +306,7 @@
 				</div><!-- bottom-padding-90 end -->
 
 				<!-- bottom-padding-90 start -->
-				<div class="bottom-padding-90">
+				<div class="bottom-padding-90" id="Fusion">
 					<!-- portfolio-content start -->
 					<div class="portfolio-content flex-min-height-box">
 						<!-- portfolio-content-inner start -->
@@ -410,7 +316,7 @@
 								<!-- column start -->
 								<div data-animation-container class="six-columns top-padding-60 bottom-padding-60 ">
 									<div class="content-right-margin-40">
-										<!-- <span class="small-title-oswald red-color overlay-anim-box2" data-animation="overlay-anim2">Branding</span> -->
+										<!-- <span class="small-title-oswald gold-color overlay-anim-box2" data-animation="overlay-anim2">Branding</span> -->
 										<h3 class="title-style text-color-1">
 											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Corporate Identity</span><br>
 											<span data-animation-child class="overlay-anim-box2 overlay-dark-bg-2 tr-delay03 small-title-oswald" data-animation="overlay-anim2">trotz Fusionen und Zentralisierung!</span><br>
@@ -437,9 +343,9 @@
 								</div><!-- column end -->
 								<!-- column start -->
 								<div class="six-columns top-padding-60">
-									<a href="project.html" class="portfolio-content-bg-box pointer-large hover-box hidden-box animsition-link">
+									<div class="portfolio-content-bg-box pointer-large hover-box hidden-box">
 										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/fusion/fusion-1.jpg)"></div>
-									</a>
+                                    </div>
 								</div><!-- column end -->
 							</div><!-- flex-container end -->
 						</div><!-- portfolio-content-inner end -->
@@ -759,11 +665,10 @@
 					<div class="content-left-right-margin-10">
 						<ul class="footer-menu text-color-4">
 							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="index.html">Home</a></li>
-							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="about.html">About</a></li>
-							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="services.html">Services</a></li>
-							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="portfolio.html">Portfolio</a></li>
-							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="blog.html">Blog</a></li>
-							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="contact.html">Contact</a></li>
+							<li><a class="pointer-large small-title-oswald hover-color" href="#Digitalisierung">Digitalisierung</a></li>
+							<li><a class="pointer-large small-title-oswald hover-color" href="#Inviting">Inviting</a></li>
+							<li><a class="pointer-large small-title-oswald hover-color" href="#Fusion">Fusion</a></li>
+							{{-- <li><a class="pointer-large small-title-oswald hover-color" href="contact.html">Contact</a></li> --}}
 						</ul>
 					</div>
 				</div><!-- column end -->
@@ -772,8 +677,8 @@
 					<div class="content-left-right-margin-10 footer-center-mobile">
 						<ul class="footer-information text-color-4">
 							<li><i class="far fa-envelope"></i><a href="#" class="xsmall-title-oswald">info@corporate-happiness.de</a></li>
-							<li><i class="fas fa-mobile-alt"></i><a href="#" class="xsmall-title-oswald">+23 8 8532 7834</a></li>
-							<li><i class="fas fa-map-marker-alt"></i><a href="#" class="xsmall-title-oswald text-height-17">PO Box 223158 Oliver Street<br><span>East Victoria 2006 UK</span></a></li>
+							<li><i class="fas fa-mobile-alt"></i><a href="#" class="xsmall-title-oswald">+49 89 890 673 177</a></li>
+							<li><i class="fas fa-map-marker-alt"></i><a href="#" class="xsmall-title-oswald text-height-17">Gewürzmühlstraße 17<br><span>80538 München, Bayern</span></a></li>
 						</ul>
 					</div>
 				</div><!-- column end -->
@@ -783,27 +688,12 @@
 						<ul class="footer-social">
 							<li>
 								<div class="flip-btn-box">
-									<a href="#" class="flip-btn pointer-small" data-text="Instagram">Instagram</a>
+									<a target="_blank" class="flip-btn pointer-small" href="https://www.instagram.com/corporate_happiness/" data-text="Instagram">Instagram</a>
 								</div>
 							</li>
 							<li>
 								<div class="flip-btn-box">
-									<a href="#" class="flip-btn pointer-small" data-text="Facebook">Facebook</a>
-								</div>
-							</li>
-							<li>
-								<div class="flip-btn-box">
-									<a href="#" class="flip-btn pointer-small" data-text="Spotify">Spotify</a>
-								</div>
-							</li>
-							<li>
-								<div class="flip-btn-box">
-									<a href="#" class="flip-btn pointer-small" data-text="Vimeo">Vimeo</a>
-								</div>
-							</li>
-							<li>
-								<div class="flip-btn-box">
-									<a href="#" class="flip-btn pointer-small" data-text="Behance">Behance</a>
+									<a target="_blank" class="flip-btn pointer-small" href="https://www.facebook.com/CorporateHappiness/" data-text="Facebook">Facebook</a>
 								</div>
 							</li>
 						</ul>
@@ -811,13 +701,13 @@
 				</div><!-- column end -->
 				<!-- column start -->
 				<div class="twelve-columns">
-					<p class="p-letter-style text-color-4 footer-copyright">&copy; Copyright 2019 XEN. Theme by <a href="#">Jinna Gik</a></p>
+					<p class="p-letter-style text-color-4 footer-copyright">&copy; Copyright 2020 Corporate Happiness GmbH.</p>
 				</div><!-- column end -->
 			</div><!-- flex-container end -->
 		</footer><!-- footer end -->
 
 		<!-- scripts -->
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="{{ asset('assets/js/plugins.js') }}"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
 	</body>
 </html>
