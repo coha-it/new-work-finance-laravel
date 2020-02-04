@@ -19655,8 +19655,8 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/baffi/public_html/corporate-happiness/sites/new-work-finance/laravel/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/baffi/public_html/corporate-happiness/sites/new-work-finance/laravel/resources/js/main.js */"./resources/js/main.js");
+__webpack_require__(/*! /Users/alex/public_html/corporate-happiness/sites/new-work-finance-wrapper/laravel/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/alex/public_html/corporate-happiness/sites/new-work-finance-wrapper/laravel/resources/js/main.js */"./resources/js/main.js");
 
 
 /***/ })

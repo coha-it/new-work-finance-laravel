@@ -12,8 +12,7 @@ npm-debug.log
 yarn-error.log
 
 # custom
-<<<<<<< HEAD
-public/js/app.js
-=======
 .DS_Store
->>>>>>> a157fabcd06ced269cf3fb205fc7734326bff7ad
+dist/*
+public/assets/css/app.min.css
+public/assets/js/combined.min.js

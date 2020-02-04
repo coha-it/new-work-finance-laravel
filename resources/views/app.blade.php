@@ -4,8 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>New Work Finance</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7COswald:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+				<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7COswald:300,400,500,600,700" rel="stylesheet" type="text/css">
+
+				@if(App::environment('production'))
+					<link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css">
+				@else
+        	<link href="{{ asset('assets/css/plugins.css') }}" rel="stylesheet" type="text/css">
+        	<link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
+				@endif
 	</head>
 	<body class="loader">
 		<!-- loading start -->
@@ -713,7 +719,11 @@
 		</footer><!-- footer end -->
 
 		<!-- scripts -->
-        <script src="{{ asset('assets/js/plugins.js') }}"></script>
-        <script src="{{ asset('js/app.js') }}"></script>
+		@if(App::environment('production'))
+			<script src="{{ asset('assets/js/combined.min.js') }}"></script>
+		@else
+			<script src="{{ asset('assets/js/plugins.js') }}"></script>
+			<script src="{{ asset('dist/js/app.js') }}"></script>
+		@endif
 	</body>
 </html>
