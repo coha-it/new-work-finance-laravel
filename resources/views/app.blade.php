@@ -162,7 +162,7 @@
 							<!-- column start -->
 							<!-- <div class="six-columns">
 								<div class="content-left-margin-20">
-									<p data-animation-child class="p-style-medium text-color-5 fade-anim-box tr-delay03" data-animation="fade-anim">Wir schulen daher nicht auf der Informationsebene, sondern bringen die Teilnehmerinnen und Teilnehmer ins Erfahren. Nur wer die Veränderungen seiner eigenen Wirksamkeit erlebt, kann auch andere dazu inspirieren. In dem neun monatigen Programmen, setzen wir auf die positiven Effekte des blended-Learnings, d.h. eine Kombination aus Präsenz-Workshops und einer umfangreichen eLearning-Plattform. Sie werden somit zielgerichtet und praxisnah ausgebildet, um Vorreiter der Branche zu werden. </p>
+									<p data-animation-child class="p-style-medium text-color-5 fade-anim-box tr-delay03" data-animation="fade-anim">Wir schulen daher nicht auf der Informationsebene, sondern bringen die Teilnehmerinnen und Teilnehmer ins Erfahren. Nur wer die Veränderungen seiner eigenen Wirksamkeit erlebt, kann auch andere dazu inspirieren. In den neunmonatigen Programmen, setzen wir auf die positiven Effekte des blended-Learnings, d.h. eine Kombination aus Präsenz-Workshops und einer umfangreichen eLearning-Plattform. Sie werden somit zielgerichtet und praxisnah ausgebildet, um Vorreiter der Branche zu werden. </p>
 								</div>
               </div>column end -->
 
