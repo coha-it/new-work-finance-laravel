@@ -59,7 +59,7 @@
 				<!-- nav-box start -->
 				<li class="nav-box nav-bg-change">
 					<a href="/" class="animsition-link pointer-large nav-link">
-						<span class="nav-btn" data-text="Digitalisierung">Startseite</span>
+						<span class="nav-btn" data-text="Startseite">Startseite</span>
 					</a>
 					<div class="nav-bg" style="background-image:url(assets/images/projects/startseite/frankfurt-body-of-water-near-trees-1124460.jpg);"></div>
                 </li><!-- nav-box end -->
@@ -148,7 +148,7 @@
 							<div class="twelve-columns text-center">
 								<h2 class="large-title text-height-12">
 									<span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="New Work Finance">New Work Finance</span><br>
-									<!-- <span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="We are Xen">We are Xen</span> -->
+									<!-- <span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="Warum New Work Finance?">Warum New Work Finance?</span> -->
 								</h2>
               </div><!-- column end -->
 
@@ -171,15 +171,15 @@
 								<div class="content-right-margin-20 content-left-margin-20">
 									<p data-animation-child="" class="coha--text-split-2 p-style-medium text-color-5 fade-anim-box tr-delay02 animated fade-anim" data-animation="fade-anim">Unser New Work Finance Programm zeigt Ihnen, wie Sie fernab von herkömmlichen Schulungsansätzen effektiv und nachhaltig, verschiedenste Herausforderungen der Finanzbranche lösen können, um Ihr Unternehmen von Innen heraus zu stärken und in eine erfolgreiche Zukunft zu führen.
                     Unsere einzigartige Methodik, basierend auf wissenschaftlich fundierten Erkenntnissen, sichert die Freisetzung bisher unentdeckter Selbstentfaltungskräfte Ihrer MitarbeiterInnen und Mitarbeiter. Eigenverantwortung, Kreativität und Wertschätzung sind Schlüsselqualifikationen, die unabdingbar für ein modernes Unternehmen sind. Wir schulen daher nicht auf der Informationsebene, sondern bringen die Teilnehmerinnen und Teilnehmer ins Erfahren. Nur wer die Veränderungen seiner eigenen Wirksamkeit erlebt, kann auch andere dazu inspirieren.
-                    In dem neun monatigen Programmen, setzen wir auf die positiven Effekte des blended-Learnings, d.h. eine Kombination aus Präsenz-Workshops und einer umfangreichen eLearning-Plattform. Sie werden somit zielgerichtet und praxisnah ausgebildet, um Vorreiter der Branche zu werden.</p>
+                    In den neunmonatigen Programmen, setzen wir auf die positiven Effekte des blended-Learnings, d.h. eine Kombination aus Präsenz-Workshops und einer umfangreichen eLearning-Plattform. Sie werden somit zielgerichtet und praxisnah ausgebildet, um Vorreiter der Branche zu werden.</p>
 								</div>
 							</div>
 
 
 							<!-- column start -->
-							<!-- <div class="twelve-columns text-center">
-								<p data-animation-child class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04" data-animation="fade-anim">Godard slow-carb chartreuse occupy, tumblr letterpress</p>
-							</div>column end -->
+							<div class="twelve-columns text-center">
+								<p data-animation-child class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04" data-animation="fade-anim">Weil die Kreativität & Innovationskraft von Menschen stets die Zukunft ist</p>
+							</div>
 						</div><!-- flex-container end -->
 					</div><!-- container end -->
 				</div><!-- flex-min-height-inner end -->
