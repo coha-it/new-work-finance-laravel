@@ -354,6 +354,8 @@
 
 			</section><!-- section end -->
 
+			@if(App::environment('local'))
+
 			<!-- section start -->
 			<section class="dark-bg-2">
 				<!-- container start -->
@@ -648,6 +650,10 @@
 					</div><!-- flex-container end -->
 				</div><!-- container end -->
 			</section><!-- latest-news end -->
+
+			@endif
+
+
 		</main><!-- animsition-overlay end -->
 
 		<!-- footer start -->
