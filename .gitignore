@@ -14,5 +14,6 @@ yarn-error.log
 # custom
 .DS_Store
 dist/*
+public/dist/
 public/assets/css/app.min.css
 public/assets/js/combined.min.js
