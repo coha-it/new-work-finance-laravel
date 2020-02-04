@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 
 // Mix JS Files
-mix.js(['resources/js/app.js', 'resources/js/main.js'], 'public/dist/js/app.js');
+mix.js(['resources/js/app.js', 'resources/js/main.js', 'resources/js/custom.js'], 'public/dist/js/app.js');
 mix.sass('resources/scss/custom.scss', 'public/dist/css/custom.css');
 
 // LIVE
@@ -22,8 +22,4 @@ if (mix.inProduction()) {
     mix.version();
 } 
 // DEV / LOCAL
-else {
-
-}
-
-
+else {}

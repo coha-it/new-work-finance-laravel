@@ -110,7 +110,13 @@
 			<!-- page-head start -->
 			<section id="up" class="page-head video-bg-box flex-min-height-box">
 				<!-- video-bg -->
-				<video src="assets/videos/nwf-2.mp4" muted loop autoplay></video>
+				<video class="coha-video jq-preload-video" muted loop autoplay playsinline>
+					<source src="assets/videos/3_mobile.webm" type="video/webm" />
+					<source src="assets/videos/3_mobile.mp4"  type="video/mp4" />
+					<source src="assets/videos/3_mobile.ogg"  type="video/ogg" />
+					Your browser does not support the video tag.
+				</video>
+
 				<!-- bg-overlay -->
 				<div class="bg-overlay"></div>
 
@@ -369,9 +375,9 @@
 				<div class="container small top-bottom-padding-120">
 					<!-- medium-title start -->
 					<h2 data-animation-container class="medium-title">
-						<span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="Unsere Referenzen,">Unsere Referenzen,</span><br>
-						<span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="Empfehlungen">Empfehlungen</span><br>
-						<span data-animation-child class="title-fill tr-delay02" data-animation="title-fill-anim" data-text="& Partner">& Partner</span>
+						<span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="Diese Unternehmen tragen ">Diese Unternehmen tragen </span><br>
+						<span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="mit uns aktiv zum ">mit uns aktiv zum </span><br>
+						<span data-animation-child class="title-fill tr-delay02" data-animation="title-fill-anim" data-text="Kulturwandel bei">Kulturwandel bei</span>
 					</h2><!-- medium-title end -->
 
 					<!-- client-list start -->
