@@ -17,7 +17,7 @@ mix.sass('resources/scss/custom.scss', 'public/dist/css/custom.css');
 
 // LIVE
 if (mix.inProduction()) {
-    mix.styles(['public/assets/css/plugins.css','public/assets/css/style.css'],'public/assets/css/combined.min.css');
+    mix.styles(['public/assets/css/plugins.css','public/assets/css/style.css', 'public/dist/css/custom.css'],'public/assets/css/combined.min.css');
     mix.combine(['public/assets/js/plugins.js', 'public/dist/js/app.js'], 'public/assets/js/combined.min.js');
     mix.version();
 } 
