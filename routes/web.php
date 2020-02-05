@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('app');
-});
+Route::get('/', 'PageCtrl@home');
+Route::get('/impressum', 'PageCtrl@imprint');

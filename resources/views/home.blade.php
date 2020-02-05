@@ -1,119 +1,15 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>New Work Finance</title>
-				<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7COswald:300,400,500,600,700" rel="stylesheet" type="text/css">
+@extends('layouts.app')
 
-				@if(App::environment('production'))
-					<link href="{{ asset('assets/css/combined.min.css') }}" rel="stylesheet" type="text/css">
-				@else
-        	<link href="{{ asset('assets/css/plugins.css') }}" rel="stylesheet" type="text/css">
-        	<link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
-        	<link href="{{ asset('dist/css/custom.css') }}" rel="stylesheet" type="text/css">
-				@endif
-	</head>
-	<body class="loader">
-		<!-- loading start -->
-		<div class="loading">
-		    <img class="logo-loading" src="assets/images/logo/logo-coha-w-2z.png" alt="logo">
-	    </div><!-- loading end -->
+@section('title', 'New Work Finance | Mit Innovation durch Vorreiter der Branche werden!')
 
-		<!-- to-top-btn start -->
-		<a class="to-top-btn pointer-small" href="#up">
-			  <span class="to-top-arrow"></span>
-		</a><!-- to-top-btn end -->
-
-	    <!-- header start -->
-	    <header class="fixed-header">
-		    <!-- header-flex-box start -->
-			<div class="header-flex-box">
-			    <!-- logo start -->
-				<a href="/" class="logo pointer-large animsition-link">
-					<div class="logo-img-box">
-				        <img class="logo-white" src="assets/images/logo/logo-coha-wg-2z.png" alt="logo">
-				        <img class="logo-black" src="assets/images/logo/logo-coha-s-2z.png" alt="logo">
-			        </div>
-		        </a><!-- logo end -->
-
-				<!-- menu-open start -->
-				<div class="menu-open pointer-large">
-					<span class="hamburger"></span>
-				</div><!-- menu-open end -->
-		    </div><!-- header-flex-box end -->
-    </header><!-- header end -->
-
-		<!-- nav-container start -->
-		<nav class="nav-container dark-bg-1">
-			<!-- nav-logo start -->
-			<div class="nav-logo">
-				<img src="assets/images/logo/logo-white.png" alt="logo">
-			</div><!-- nav-logo end -->
-
-			<!-- menu-close -->
-			<div class="menu-close pointer-large"></div>
-
-			<!-- dropdown-close-box start -->
-			<div class="dropdown-close-box">
-				<div class="dropdown-close pointer-large">
-					<span></span>
-				</div>
-			</div><!-- dropdown-close-box end -->
-
-			<!-- nav-menu start -->
-			<ul class="nav-menu dark-bg-1">
-				<!-- nav-box start -->
-				<li class="nav-box nav-bg-change">
-					<a href="/" class="animsition-link pointer-large nav-link">
-						<span class="nav-btn" data-text="Startseite">Startseite</span>
-					</a>
-					<div class="nav-bg" style="background-image:url(assets/images/projects/startseite/frankfurt-body-of-water-near-trees-1124460.jpg);"></div>
-                </li><!-- nav-box end -->
-
-				<li class="nav-box nav-bg-change">
-					<a href="#Digitalisierung" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
-						<span class="nav-btn" data-text="Digitalisierung">Digitalisierung</span>
-					</a>
-					<div class="nav-bg" style="background-image:url(assets/images/projects/digitalisierung/AdobeStock_233493970.jpg);"></div>
-                </li><!-- nav-box end -->
-
-				<li class="nav-box nav-bg-change">
-					<a href="#Inviting" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
-						<span class="nav-btn" data-text="Inviting">Inviting</span>
-					</a>
-					<div class="nav-bg" style="background-image:url(assets/images/projects/inviting/inviting-AdobeStock_74172486.jpg);"></div>
-                </li><!-- nav-box end -->
-
-				<li class="nav-box nav-bg-change">
-					<a href="#Fusion" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
-						<span class="nav-btn" data-text="Fusion">Fusion</span>
-					</a>
-					<div class="nav-bg" style="background-image:url(assets/images/projects/fusion/fusion-1.jpg);"></div>
-                </li><!-- nav-box end -->
-
-{{--
-                <!-- nav-box start -->
-				<li class="nav-box nav-bg-change">
-					<a href="contact.html" class="animsition-link pointer-large nav-link">
-						<span class="nav-btn" data-text="Contact">Contact</span>
-					</a>
-					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/double-exposure-2390185_1920.jpg);"></div>
-                </li><!-- nav-box end -->
---}}
-
-			</ul><!-- nav-menu end -->
-		</nav><!-- nav-container end -->
-
-		<!-- animsition-overlay start -->
-		<main class="animsition-overlay" data-animsition-overlay="true">
+@section('content')
 			<!-- page-head start -->
 			<section id="up" class="page-head video-bg-box flex-min-height-box">
 				<!-- video-bg -->
 				<video class="coha-video jq-preload-video" muted loop autoplay playsinline>
-					<source src="assets/videos/3_mobile.webm" type="video/webm" />
-					<source src="assets/videos/3_mobile.mp4"  type="video/mp4" />
-					<source src="assets/videos/3_mobile.ogg"  type="video/ogg" />
+					<source type="video/webm" />
+					<source type="video/mp4" />
+					<source type="video/ogv" />
 					Your browser does not support the video tag.
 				</video>
 
@@ -191,7 +87,7 @@
 
 							<!-- column start -->
 							<div class="twelve-columns text-center">
-								<p data-animation-child class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04" data-animation="fade-anim">Weil die Kreativität & Innovationskraft von Menschen stets die Zukunft ist</p>
+								<p data-animation-child class="p-letter-style text-color-4 text-height-13 fade-anim-box tr-delay04" data-animation="fade-anim">Weil Kreativität & Innovationskraft von Menschen stets die Zukunft ist</p>
 							</div>
 						</div><!-- flex-container end -->
 					</div><!-- container end -->
@@ -465,8 +361,8 @@
 						<li>
 							<a href="#" class="pointer-large d-block">
 								<div class="brand-box">
-									<img src="assets/images/clients/d383cf8d-abee-4290-810d-a965f6c0fa6c.png" alt="Brand" class="hover-opac-img">
-									<img src="assets/images/clients/7f7b6ede-3a3e-4e17-af25-f881c0121d63.png" alt="Brand" class="opac-img">
+									<img src="{{ asset('assets/images/clients/d383cf8d-abee-4290-810d-a965f6c0fa6c.png') }}" alt="Brand" class="hover-opac-img">
+									<img src="{{ asset('assets/images/clients/7f7b6ede-3a3e-4e17-af25-f881c0121d63.png') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
 						</li>
@@ -489,7 +385,7 @@
 					<div class="swiper-wrapper">
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="assets/images/testimonials/adult-beanie-black-background-1529350.jpg" alt="author">
+							<img src="{{ asset('assets/images/testimonials/adult-beanie-black-background-1529350.jpg') }}" alt="author">
 							<div class="testimonials-content">
 								<p class="text-color-4 p-style-bold">Copper mug vexillologist +1 prism iPhone fashion axe portland. Hella quinoa woke blog af umami tacos freegan vinyl snackwave microdosing. Fanny pack direct trade XOXO drinking vinegar. Live-edge kinfolk master cleanse brooklyn meh organic man braid. Actually humblebrag sriracha authentic chia. IPhone glossier schlitz fam, la croix keytar retro offal. Artisan selfies mlkshk pinterest gastropub knausgaard live-edge.</p>
 							</div>
@@ -499,7 +395,7 @@
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="assets/images/testimonials/pexels-photo-428340.jpeg" alt="author">
+							<img src="{{ asset('assets/images/testimonials/pexels-photo-428340.jpeg') }}" alt="author">
 							<div class="testimonials-content">
 								<p class="text-color-4 p-style-bold">Bushwick tumeric slow-carb photo booth letterpress franzen kombucha tumblr listicle cronut waistcoat mustache. Jean shorts tilde swag cray. Microdosing heirloom wayfarers YOLO, church-key tattooed cred blue bottle viral lyft tacos retro. Bespoke drinking vinegar single-origin coffee pop-up, whatever air plant austin hexagon selfies tattooed. Fixie taxidermy forage hot chicken, locavore church-key authentic coloring book.</p>
 							</div>
@@ -509,7 +405,7 @@
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="assets/images/testimonials/pexels-photo-764529.jpeg" alt="author">
+							<img src="{{ asset('assets/images/testimonials/pexels-photo-764529.jpeg') }}" alt="author">
 							<div class="testimonials-content">
 								<p class="text-color-4 p-style-bold">Pitchfork vaporware hella, vice next level art party subway tile swag portland. Cliche authentic photo booth, seitan sartorial iPhone brooklyn bicycle rights whatever small batch selvage affogato yuccie adaptogen vinyl. Sartorial franzen tacos cardigan, offal gluten-free pour-over snackwave plaid four dollar toast. Messenger bag keffiyeh church-key, synth iPhone pabst leggings ethical. PBR&B cred hot chicken pork belly.</p>
 							</div>
@@ -519,7 +415,7 @@
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="assets/images/testimonials/pexels-photo-809433.jpeg" alt="author">
+							<img src="{{ asset('assets/images/testimonials/pexels-photo-809433.jpeg') }}" alt="author">
 							<div class="testimonials-content">
 								<p class="text-color-4 p-style-bold">Chambray enamel pin synth shabby chic palo santo. Franzen 90's man bun wayfarers, put a bird on it twee four loko roof party shabby chic kale chips photo booth salvia mixtape lumbersexual. Pug kickstarter hammock unicorn, cardigan ennui celiac roof party. Ramps pitchfork direct trade, food truck tacos biodiesel craft beer. Af hammock listicle vape banjo echo park meditation organic cred subway tile. Echo park DIY.</p>
 							</div>
@@ -529,7 +425,7 @@
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="assets/images/testimonials/pexels-photo-894156.jpeg" alt="author">
+							<img src="{{ asset('assets/images/testimonials/pexels-photo-894156.jpeg') }}" alt="author">
 							<div class="testimonials-content">
 								<p class="text-color-4 p-style-bold">Pok pok authentic fashion axe, vegan venmo leggings raclette tousled twee tattooed. Banh mi humblebrag hammock tacos fashion axe aesthetic vegan sustainable taiyaki thundercats jean shorts tousled cloud bread waistcoat kogi. Cloud bread cardigan messenger bag raw denim swag drinking vinegar. Yuccie jianbing bespoke retro, photo booth salvia hella meh post-ironic cornhole tacos plaid.</p>
 							</div>
@@ -545,7 +441,7 @@
 			</div><!-- light-bg-2 end -->
 
 			<!-- video-content-bg start -->
-			<div class="video-content-bg" style="background-image:url(assets/images/backgrounds/business-calligraphy-chinese-lanterns-1455969.jpg)">
+			<div class="video-content-bg" style="background-image:url({{ asset('assets/images/backgrounds/business-calligraphy-chinese-lanterns-1455969.jpg') }})">
 				<div class="bg-overlay"></div>
 				<a href="https://www.youtube.com/watch?v=9TGlc0Fufgk" class="video-play-button popup-youtube pointer-large">
 					<span></span>
@@ -569,7 +465,7 @@
 							<article class="content-right-margin-20 light-bg-2" data-animation-container>
 								<a href="single_post.html" class="pointer-large animsition-link hover-box d-block">
 									<div class="overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2">
-										<img class="hover-img" src="assets/images/blog/bodypaint-female-girl-50595.jpg" alt="blog img">
+										<img class="hover-img" src="{{ asset('assets/images/blog/bodypaint-female-girl-50595.jpg') }}" alt="blog img">
 									</div>
 									<h3 class="title-style text-color-1 top-margin-30 blog-title content-padding-l-r-20">
 										<span data-animation-child class="overlay-anim-box2 hover-content overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">subway tile</span><br>
@@ -601,7 +497,7 @@
 							<article class="content-left-right-margin-10 light-bg-2" data-animation-container>
 								<a href="single_post.html" class="pointer-large animsition-link hover-box d-block">
 									<div class="overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2">
-										<img class="hover-img" src="assets/images/blog/auto-automobile-automotive-358201.jpg" alt="blog img">
+										<img class="hover-img" src="{{ asset('assets/images/blog/auto-automobile-automotive-358201.jpg') }}" alt="blog img">
 									</div>
 									<h3 class="title-style text-color-1 top-margin-30 blog-title content-padding-l-r-20">
 										<span data-animation-child class="overlay-anim-box2 hover-content overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Cornhole slow</span><br>
@@ -633,7 +529,7 @@
 							<article class="content-left-margin-20 light-bg-2" data-animation-container>
 								<a href="single_post.html" class="pointer-large animsition-link hover-box d-block">
 									<div class="overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2">
-										<img class="hover-img" src="assets/images/blog/art-blur-close-up-1826029.jpg" alt="blog img">
+										<img class="hover-img" src="{{ asset('assets/images/blog/art-blur-close-up-1826029.jpg') }}" alt="blog img">
 									</div>
 									<h3 class="title-style text-color-1 top-margin-30 blog-title content-padding-l-r-20">
 										<span data-animation-child class="overlay-anim-box2 hover-content overlay-dark-bg-2 tr-delay01" data-animation="overlay-anim2">Man bun 8-bit</span><br>
@@ -665,72 +561,4 @@
 			</section><!-- latest-news end -->
 
 			@endif
-
-
-		</main><!-- animsition-overlay end -->
-
-		<!-- footer start -->
-		<footer class="footer dark-bg-1">
-			<!-- flex-container start -->
-			<div class="flex-container container top-bottom-padding-90">
-				<!-- column start -->
-				<div class="two-columns bottom-padding-60">
-					<div class="content-right-margin-10 footer-center-mobile">
-						<img class="footer-logo" src="assets/images/logo/logo-coha-2z.png" alt="logo">
-					</div>
-				</div><!-- column end -->
-				<!-- column start -->
-				<div class="three-columns bottom-padding-60">
-					<div class="content-left-right-margin-10">
-						<ul class="footer-menu text-color-4">
-							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="index.html">Home</a></li>
-							<li><a class="pointer-large small-title-oswald hover-color" href="#Digitalisierung">Digitalisierung</a></li>
-							<li><a class="pointer-large small-title-oswald hover-color" href="#Inviting">Inviting</a></li>
-							<li><a class="pointer-large small-title-oswald hover-color" href="#Fusion">Fusion</a></li>
-							{{-- <li><a class="pointer-large small-title-oswald hover-color" href="contact.html">Contact</a></li> --}}
-						</ul>
-					</div>
-				</div><!-- column end -->
-				<!-- column start -->
-				<div class="four-columns bottom-padding-60">
-					<div class="content-left-right-margin-10 footer-center-mobile">
-						<ul class="footer-information text-color-4">
-							<li><i class="far fa-envelope"></i><a href="#" class="xsmall-title-oswald">info@corporate-happiness.de</a></li>
-							<li><i class="fas fa-mobile-alt"></i><a href="#" class="xsmall-title-oswald">+49 89 890 673 177</a></li>
-							<li><i class="fas fa-map-marker-alt"></i><a href="#" class="xsmall-title-oswald text-height-17">Gewürzmühlstraße 17<br><span>80538 München, Bayern</span></a></li>
-						</ul>
-					</div>
-				</div><!-- column end -->
-				<!-- column start -->
-				<div class="three-columns bottom-padding-60">
-					<div class="content-left-margin-10">
-						<ul class="footer-social">
-							<li>
-								<div class="flip-btn-box">
-									<a target="_blank" class="flip-btn pointer-small" href="https://www.instagram.com/corporate_happiness/" data-text="Instagram">Instagram</a>
-								</div>
-							</li>
-							<li>
-								<div class="flip-btn-box">
-									<a target="_blank" class="flip-btn pointer-small" href="https://www.facebook.com/CorporateHappiness/" data-text="Facebook">Facebook</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div><!-- column end -->
-				<!-- column start -->
-				<div class="twelve-columns">
-					<p class="p-letter-style text-color-4 footer-copyright">&copy; Copyright 2020 Corporate Happiness GmbH.</p>
-				</div><!-- column end -->
-			</div><!-- flex-container end -->
-		</footer><!-- footer end -->
-
-		<!-- scripts -->
-		@if(App::environment('production'))
-			<script src="{{ asset('assets/js/combined.min.js') }}"></script>
-		@else
-			<script src="{{ asset('assets/js/plugins.js') }}"></script>
-			<script src="{{ asset('dist/js/app.js') }}"></script>
-		@endif
-	</body>
-</html>
+@endsection

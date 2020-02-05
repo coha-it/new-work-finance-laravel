@@ -1,4 +1,22 @@
+// Fixes
+html body.anim .overlay-loading2:before,
+.overlay-anim-box2.overlay-anim2:before {
+    transform: translateX(101%);
+}
+
 // App SCSS
 .pointer-large {
     cursor: pointer;
+}
+
+.portfolio-content {
+    background: #f5f5f5;
+}
+
+
+.imprint {
+    background: #1d1e21;
+    p {
+        margin: 0 0 25px;
+    }
 }
