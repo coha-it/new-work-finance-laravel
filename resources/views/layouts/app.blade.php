@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield('title')</title>
+        <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/images/favicons/favicon.png') }}">
+        <link rel="shortcut icon" href="{{ asset('assets/images/favicons/favicon.ico') }}">
         @include('components.styles')
 	</head>
 	<body class="loader">

@@ -29,19 +29,15 @@
 		  			</div><!-- container end -->
 	  			</div><!-- flex-min-height-inner end -->
 
-	  			<!-- scroll-btn start -->
-				<a href="#down" class="scroll-btn pointer-large">
-					<div class="scroll-arrow-box">
-						<span class="scroll-arrow"></span>
-					</div>
-					<div class="scroll-btn-flip-box">
-						<span class="scroll-btn-flip" data-text="Scroll">Scroll</span>
-					</div>
-				 </a><!-- scroll-btn end -->
+                <!-- scroll-btn start -->
+                @section('scrollarea1')
+                  @include('components.scrolldown')
+                @show
+
 			</section><!-- page-head end -->
 
 			<!-- flex-min-height-box start -->
-			<section id="down" class="dark-bg-1 flex-min-height-box">
+			<section id="start" class="dark-bg-1 flex-min-height-box">
 				<!-- flex-min-height-inner start -->
 				<div class="flex-min-height-inner">
 					<!-- container start -->
@@ -187,13 +183,15 @@
                         <p>Faktoren wie der Personalabbau, die Finanzkrise, die Schließung von Filialen oder die Kürzung der Ausbildungsquote haben das einstmals nahezu unanfechtbare Arbeitgeberimage der Banken nachhaltig beschädigt.</p>
                         <p>Die früheren Attribute „sicherer Arbeitsplatz“, „solides Berufsbild“ scheinen heute nicht mehr hinreichend verlässlich zu sein. Die Arbeitgeberattraktivität von Banken und Sparkassen ist heute nur noch mittelmäßig. Und das ist zu wenig, um auf einem Arbeitsmarkt mit wachsenden strukturellen Angebotsschwächen Erfolg zu haben.</p>
                         <strong>In ihrer New Work Finance Ausbildung lernen Sie:</strong>
-                        <ol>
-                          <li>-	warum Stellenanzeigen und Messen das Problem nicht lösen werden.</li>
-                          <li>-	dass die Mitarbeitergewinnung nicht das eigentliche Problem ist. </li>
-                          <li>-	was bei Bewerbern noch viel wichtiger ist, als die fachliche Qualifikation.</li>
-                          <li>-	dass man bei der Gewinnung von Mitarbeitern nicht sparen muss, um wirtschaftlich erfolgreich zu sein. </li>
-                          <li>-	wie ihre Bank trotz Krise zum Fachkräftemagneten wird und zu alter Arbeitgeberattraktivität zurückfindet</li>
-                        </ol>
+                        <p>
+                            <ol>
+                              <li>-	warum Stellenanzeigen und Messen das Problem nicht lösen werden.</li>
+                              <li>-	dass die Mitarbeitergewinnung nicht das eigentliche Problem ist. </li>
+                              <li>-	was bei Bewerbern noch viel wichtiger ist, als die fachliche Qualifikation.</li>
+                              <li>-	dass man bei der Gewinnung von Mitarbeitern nicht sparen muss, um wirtschaftlich erfolgreich zu sein. </li>
+                              <li>-	wie ihre Bank trotz Krise zum Fachkräftemagneten wird und zu alter Arbeitgeberattraktivität zurückfindet</li>
+                            </ol>
+                        </p>
                       </div>
                       <div class="after"></div>
                     </div>
@@ -232,14 +230,16 @@
                         <p>Zur schlechten Ertragslage gesellen sich enorme Kosten, verursacht durch Investitionen in die digitale Transformation und Restrukturierungskosten des Personalabbaus.</p>
                         <p>Aufgrund der daraus resultierenden Einsparungen kommt es immer häufiger zu Fusionen und Zusammenschlüssen, welche Banken vor große Kultur und Management Herausforderungen stellen.</p>
                         <p>In ihrer New Work Finance Ausbildung lernen Sie:</p>
-                        <ol>
-                            <li>Wie Fusionen und Zusammenschlüsse zum Profit werden können</li>
-                            <li>Was es dazu braucht neue Geschäftsbereiche zu erschließen und sich somit weniger von Zinserträgen abhängig zu machen</li>
-                            <li>Weshalb agile Mitarbeiter für den Kulturwandel eines Zusammenschlusses unabdingbar sind</li>
-                            <li>Wie Mitarbeiter agiler, begeisterter und kreativer werden und das Unternehmen von innen heraus stärken</li>
-                            <li>Welchen Beitrag Führungskräfte und Mitarbeiter zu einer neuen Agilitätskultur beitragen können</li>
-                            <li>Warum ein intaktes Leitbild dabei eine entscheidende Rolle spielt</li>
-                        </ol>
+                        <p>
+                            <ol>
+                                <li>Wie Fusionen und Zusammenschlüsse zum Profit werden können</li>
+                                <li>Was es dazu braucht neue Geschäftsbereiche zu erschließen und sich somit weniger von Zinserträgen abhängig zu machen</li>
+                                <li>Weshalb agile Mitarbeiter für den Kulturwandel eines Zusammenschlusses unabdingbar sind</li>
+                                <li>Wie Mitarbeiter agiler, begeisterter und kreativer werden und das Unternehmen von innen heraus stärken</li>
+                                <li>Welchen Beitrag Führungskräfte und Mitarbeiter zu einer neuen Agilitätskultur beitragen können</li>
+                                <li>Warum ein intaktes Leitbild dabei eine entscheidende Rolle spielt</li>
+                            </ol>
+                        </p>
 
                       </div>
                       <div class="after"></div>
@@ -264,7 +264,7 @@
 
 
             <div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">
-                <a href="#" class="pointer-large overlay-btn-box">
+                <a href="{{ route('contact') }}" class="pointer-large overlay-btn-box">
                     <span class="overlay-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</span>
                 </a>
             </div>

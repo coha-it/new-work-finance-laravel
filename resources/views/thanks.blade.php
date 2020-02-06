@@ -2,6 +2,10 @@
 
 @section('title', 'Vielen Dank für Ihre Nachricht | New Work Finance | Mit Innovation durch Vorreiter der Branche werden!')
 
+@section('scrollarea1')
+    {{-- Disable Scrollarea --}}
+@endsection
+
 @section('message')
 
 {{-- Errors --}}
@@ -12,7 +16,7 @@
 			<!-- page-head start -->
 			<section id="up" class="page-head flex-min-height-box dark-bg-2 typewriter-home">
 				<!-- page-head-bg -->
-				<div class="page-head-bg" style="background-image: url(assets/images/backgrounds/fullscreen/adult-beautiful-woman-brunette-2177471.jpg);"></div>
+				<div class="page-head-bg" style="background-image: url({{ url('assets/images/mailing/mailing1.jpg') }});"></div>
 
 				<!-- flex-min-height-inner start -->
 	  			<div class="flex-min-height-inner">
@@ -32,15 +36,7 @@
 		  			</div><!-- container end -->
 	  			</div><!-- flex-min-height-inner end -->
 
-	  			<!-- scroll-btn start -->
-				<a href="#down" class="scroll-btn pointer-large">
-					<div class="scroll-arrow-box">
-						<span class="scroll-arrow"></span>
-					</div>
-					<div class="scroll-btn-flip-box">
-						<span class="scroll-btn-flip" data-text="Scroll">Scroll</span>
-					</div>
-				 </a><!-- scroll-btn end -->
+	  			@include('components.scrolldown')
             </section><!-- page-head end -->
 
 @endsection

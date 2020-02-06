@@ -7,7 +7,7 @@
 					<div class="container small top-bottom-padding-120">
 						<h4 class="small-title-oswald text-color-4 text-center">Lasst uns in Kontakt treten</h4>
 						<!-- flex-container start -->
-                        <form class="flex-container top-padding-90" method="POST" action="{{ route('cfp') }}">
+                        <form class="flex-container top-padding-90" method="POST" action="{{ route('scf') }}">
                             @csrf
 							<!-- column start -->
 							<div class="four-columns">

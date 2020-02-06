@@ -47,10 +47,10 @@
                 </li><!-- nav-box end -->
 
 				<li class="nav-box nav-bg-change">
-					<a href="{{ url('kontakt') }}" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+					<a href="{{ route('contact') }}" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
 						<span class="nav-btn" data-text="Kontakt">Kontakt</span>
 					</a>
-					<div class="nav-bg"></div>
+					<div class="nav-bg" style="background-image:url({{ asset('assets/images/mailing/mailing0.jpg') }});"></div>
                 </li><!-- nav-box end -->
 
 				<li class="nav-box nav-bg-change">

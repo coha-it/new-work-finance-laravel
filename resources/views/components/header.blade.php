@@ -5,8 +5,8 @@
 			    <!-- logo start -->
 				<a href="/" class="logo pointer-large animsition-link">
 					<div class="logo-img-box">
-				        <img class="logo-white" src="{{ asset('assets/images/logo/logo-coha-wg-2z.png') }}" alt="logo">
-				        <img class="logo-black" src="{{ asset('assets/images/logo/logo-coha-s-2z.png') }}" alt="logo">
+				        <img class="logo-white" src="{{ asset('assets/images/logo/logo-coha-wg-2z.svg') }}" alt="logo">
+				        <img class="logo-black" src="{{ asset('assets/images/logo/logo-coha-s-2z.svg') }}" alt="logo">
 			        </div>
 		        </a><!-- logo end -->
 
