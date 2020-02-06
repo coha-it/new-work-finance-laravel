@@ -2,7 +2,7 @@
 		<nav class="nav-container dark-bg-1">
 			<!-- nav-logo start -->
 			<div class="nav-logo">
-				<img src="{{ asset('assets/images/logo/logo-white.png') }}" alt="logo">
+				<img src="{{ asset('assets/images/logo/logo-coha-w-2z.png') }}" alt="logo">
 			</div><!-- nav-logo end -->
 
 			<!-- menu-close -->
@@ -40,10 +40,17 @@
                 </li><!-- nav-box end -->
 
 				<li class="nav-box nav-bg-change">
-					<a href="#Fusion" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
-						<span class="nav-btn" data-text="Fusion">Fusion</span>
+					<a href="#CorporateIdentity" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+						<span class="nav-btn" data-text="Corporate Identity">Corporate Identity</span>
 					</a>
 					<div class="nav-bg" style="background-image:url({{ asset('assets/images/projects/fusion/fusion-1.jpg') }});"></div>
+                </li><!-- nav-box end -->
+
+				<li class="nav-box nav-bg-change">
+					<a href="{{ url('kontakt') }}" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+						<span class="nav-btn" data-text="Kontakt">Kontakt</span>
+					</a>
+					<div class="nav-bg"></div>
                 </li><!-- nav-box end -->
 
 				<li class="nav-box nav-bg-change">

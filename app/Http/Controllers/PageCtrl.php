@@ -9,8 +9,13 @@ class PageCtrl extends Controller
     function home () {
         return view('home');
     }
-
     function imprint () {
         return view('imprint');
+    }
+    function contact () {
+        return view('contact');
+    }
+    function thanks () {
+        return view('thanks');
     }
 }

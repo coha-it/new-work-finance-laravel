@@ -1,12 +1,22 @@
 // Fixes
 html body.anim .overlay-loading2:before,
-.overlay-anim-box2.overlay-anim2:before {
-    transform: translateX(101%);
-}
+.overlay-anim-box2.overlay-anim2:before { transform: translateX(101%);}
+span.Typewriter__wrapper:after {content:"\00a0";}
+.gold-color { color: #dcc01a;}
 
 // App SCSS
 .pointer-large {
     cursor: pointer;
+}
+
+ol li {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 25px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .portfolio-content {
