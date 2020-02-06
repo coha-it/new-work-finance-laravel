@@ -1,5 +1,5 @@
 var iSize = 0;
-var sAmazonAws = 'https://corporatehappiness.s3.eu-central-1.amazonaws.com/nwf/';
+var sAmazonAws = 'https://corporatehappiness.s3.eu-central-1.amazonaws.com/nwf/videos/';
 
 // Polling for the sake of my intern tests
 var interval = setInterval(function() {
