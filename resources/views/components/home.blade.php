@@ -1,5 +1,8 @@
-			<!-- page-head start -->
-			<section id="up" class="page-head video-bg-box flex-min-height-box" style="overflow: hidden">
+
+            @include('components.contactbutton')
+
+            <!-- page-head start -->
+			<section id="up" class="page-head video-bg-box flex-min-height-box dark-bg-1" style="overflow: hidden">
 				<!-- video-bg -->
 				<video class="coha-video jq-preload-video" muted loop autoplay playsinline>
 					<source type="video/webm" />
@@ -16,16 +19,18 @@
 		  			<!-- container start -->
 		  			<div class="container top-bottom-padding-120">
 		  				<h2 class="overlay-loading2 medium-title gold-color">New Work Finance</h2>
-				  	  <h3 class="large-title-bold text-color-4">
-						  	<span class="overlay-loading2 overlay-light-bg-1 tr-delay01">Mit Innovation zum </span><br>
-						  	<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Vorreiter der </span><br>
-						  	<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Branche werden!</span>
-						  </h3>
-  						<!-- <p class="d-flex-wrap top-margin-20 text-color-4">
-  							<span class="small-title-oswald text-height-20 fade-loading tr-delay04 top-margin-10">Creative team</span>
-  							<span class="small-title-oswald text-height-20 fade-loading tr-delay05 top-margin-10">Innovation ideas</span>
-  							<span class="small-title-oswald text-height-20 fade-loading tr-delay06 top-margin-10">Best services</span>
-  						</p> -->
+				  	    <h3 class="large-title-bold text-color-4">
+						 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay01">Mit Innovation zum </span><br>
+						 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Vorreiter der </span><br>
+						 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Branche werden!</span>
+                        </h3>
+                        <div class="overlay-loading2 overlay-light-bg-1 tr-delay04 top-margin-20">
+                            <div class="border-btn-box pointer-large">
+                                <div class="border-btn-inner">
+                                    <a href="{{ route('contact') }}" class="border-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</a>
+                                </div>
+                            </div>
+                        </div>
 		  			</div><!-- container end -->
 	  			</div><!-- flex-min-height-inner end -->
 
@@ -260,14 +265,13 @@
 
 			</section><!-- section end -->
 
-            @if(App::environment('local'))
-
-
             <div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">
                 <a href="{{ route('contact') }}" class="pointer-large overlay-btn-box">
                     <span class="overlay-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</span>
                 </a>
             </div>
+
+            @if(App::environment('local'))
 
 			<!-- section start -->
 			<section class="dark-bg-2">
@@ -284,9 +288,8 @@
 					<ul class="client-list d-flex-wrap top-padding-60">
 						<li>
 							<a href="#" class="pointer-large d-block">
-								<div class="brand-box">
-									<img src="assets/images/clients/3eabc7ab-8bae-44f0-8389-0169389e38c2.png" alt="Brand" class="hover-opac-img">
-									<img src="assets/images/clients/1c4bfb0e-0b9f-4c19-ba5c-113fb0714514.png" alt="Brand" class="opac-img">
+								<div class="brand-box single">
+									<img src="{{ asset('assets/images/logos/kasseler-sparkasse.png') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
 						</li>
