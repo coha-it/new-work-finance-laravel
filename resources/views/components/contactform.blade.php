@@ -1,5 +1,5 @@
 			<!-- contact-form-box start -->
-			<section class="contact-form-box flex-min-height-box" style="background-image:url(assets/images/backgrounds/pexels-photo-1287145.jpeg)">
+			<section id="Kontakt" class="contact-form-box flex-min-height-box" style="background-image:url(assets/images/backgrounds/pexels-photo-1287145.jpeg)">
 				<div class="bg-overlay"></div>
 				<!-- flex-min-height-inner start -->
 				<div class="flex-min-height-inner">
