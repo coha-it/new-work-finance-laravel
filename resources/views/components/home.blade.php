@@ -284,49 +284,49 @@
 					<!-- client-list start -->
 					<ul class="client-list d-flex-wrap top-padding-60">
 						<li>
-							<a href="#" class="pointer-large d-block">
+							<a href="https://www.vr-bank-wuerzburg.de/" target="_blank" class="pointer-large d-block">
 								<div class="brand-box single">
 									<img src="{{ asset('assets/images/logos/vr-bank-wuerzburg.svg') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
                         </li>
 						<li>
-							<a href="#" class="pointer-large d-block">
+							<a href="https://www.kasseler-sparkasse.de/de/home.html" target="_blank" class="pointer-large d-block">
 								<div class="brand-box single">
 									<img src="{{ asset('assets/images/logos/kasseler-sparkasse.png') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
                         </li>
 						<li>
-							<a href="#" class="pointer-large d-block">
+							<a href="https://www.deutsche-bank.de/" target="_blank" class="pointer-large d-block">
 								<div class="brand-box single">
 									<img src="{{ asset('assets/images/logos/deutsche-bank.svg') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
 						</li>
 						<li>
-							<a href="#" class="pointer-large d-block">
+							<a href="https://www.vb-loebau-zittau.de/" target="_blank" class="pointer-large d-block">
 								<div class="brand-box single">
 									<img src="{{ asset('assets/images/logos/volksbank-l-bau-zittau.png') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
 						</li>
 						<li>
-								<a href="#" class="pointer-large d-block">
+								<a href="https://www.naspa.de/" target="_blank" class="pointer-large d-block">
 									<div class="brand-box single">
 										<img src="{{ asset('assets/images/logos/naspa.png') }}" alt="Brand" class="opac-img">
 									</div>
 								</a>
 							</li>
 						<li>
-							<a href="#" class="pointer-large d-block">
+							<a href="https://www.ruv.de/" target="_blank" class="pointer-large d-block">
 								<div class="brand-box single">
 									<img src="{{ asset('assets/images/logos/r-und-v-versicherungen.svg') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
 						</li>
 						<li>
-								<a href="#" class="pointer-large d-block">
+								<a href="https://www.pax-versicherung.de/" target="_blank" class="pointer-large d-block">
 									<div class="brand-box single">
 										<img src="{{ asset('assets/images/logos/pax.svg') }}" alt="Brand" class="opac-img">
 									</div>
