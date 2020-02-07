@@ -15,6 +15,7 @@ yarn-error.log
 .DS_Store
 dist/*
 public/dist/
+public/mix-manifest.json
 public/assets/css/app.min.css
 public/assets/css/combined.min.css
 public/assets/js/combined.min.js
