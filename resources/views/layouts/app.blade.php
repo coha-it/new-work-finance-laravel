@@ -25,7 +25,7 @@
             @yield('content')
 
             @section('contactform')
-                @include('components.contactform')
+                {{-- @include('components.contactform') --}}
             @show
         </main><!-- animsition-overlay end -->
 

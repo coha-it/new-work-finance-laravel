@@ -13,11 +13,11 @@
 			<div class="content-left-right-margin-10">
 				<ul class="footer-menu text-color-4">
 					<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="{{ url('/') }}">Home</a></li>
-					<li><a class="pointer-large small-title-oswald hover-color" href="#Digitalisierung">Digitalisierung</a></li>
-					<li><a class="pointer-large small-title-oswald hover-color" href="#Inviting">Inviting</a></li>
-					<li><a class="pointer-large small-title-oswald hover-color" href="#Fusion">Fusion</a></li>
+					<li><a class="pointer-large small-title-oswald hover-color" href="{{ route('home') }}#Digitalisierung">Digitalisierung</a></li>
+					<li><a class="pointer-large small-title-oswald hover-color" href="{{ route('home') }}#Inviting">Inviting</a></li>
+					<li><a class="pointer-large small-title-oswald hover-color" href="{{ route('home') }}#Fusion">Fusion</a></li>
                     <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('register') }}">Anmelden</a></li>
-                    <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('contact') }}">Impressum</a></li>
+                    <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('contact') }}">Kontakt</a></li>
                     <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('imprint') }}">Impressum</a></li>
 					{{-- <li><a class="pointer-large small-title-oswald hover-color" href="contact.html">Contact</a></li> --}}
 				</ul>

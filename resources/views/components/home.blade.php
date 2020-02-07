@@ -270,8 +270,6 @@
                 </a>
             </div>
 
-            @if(App::environment('local'))
-
 			<!-- section start -->
 			<section class="dark-bg-2">
 				<!-- container start -->
@@ -375,7 +373,7 @@
 						<div class="swiper-slide text-center">
 							<img src="{{ asset('assets/images/personen/elisabeth-cartolaro.jpg') }}" alt="author">
 							<div class="testimonials-content">
-								<p class="text-color-4 p-style-bold">»Die Kombination aus Erkenntnissen aus der Positiven Psychologie, umfangreichen Übungen und einem gemeinsamen Gruppenprozess bietet so viele Auseinandersetzungsmöglich­ keiten, dass es unmöglich ist, keine Wirkung zu erzielen. Sich neu mit sich selbst und dem Umfeld zu verbinden, dazu dient die Botschaftertätigkeit. Sie macht wirklich Spaß.«</p>
+								<p class="text-color-4 p-style-bold">»Die Kombination aus Erkenntnissen aus der Positiven Psychologie, umfangreichen Übungen und einem gemeinsamen Gruppenprozess bietet so viele Auseinandersetzungsmöglich­keiten, dass es unmöglich ist, keine Wirkung zu erzielen. Sich neu mit sich selbst und dem Umfeld zu verbinden, dazu dient die Botschaftertätigkeit. Sie macht wirklich Spaß.«</p>
 							</div>
 							<div class="text-color-1 small-title-oswald">
 									Elisabeth Cartolaro, <span class="text-color-2">Transformation Consultant und Coach, Deutsche Telekom AG</span>
@@ -385,7 +383,7 @@
 						<div class="swiper-slide text-center">
 							<img src="{{ asset('assets/images/personen/armin-lipp.jpg') }}" alt="author">
 							<div class="testimonials-content">
-								<p class="text-color-4 p-style-bold">»Die VR-Bank Würzburg ist ein Vorbild für ganz Deutschland. Ich freue mich sehr darauf, ein außergewöhn- liches Programm für inspirierte Unternehmer gemeinsam mit der VR-Bank durchzuführen.«</p>
+								<p class="text-color-4 p-style-bold">»Die VR-Bank Würzburg ist ein Vorbild für ganz Deutschland. Ich freue mich sehr darauf, ein außergewöhnliches Programm für inspirierte Unternehmer gemeinsam mit der VR-Bank durchzuführen.«</p>
 							</div>
 							<div class="text-color-1 small-title-oswald">
 								Armin Lipp, <span class="text-color-2">Trainer, Corporate Happiness®</span>
@@ -408,5 +406,3 @@
 				</div><!-- testimonials-slider end -->
 			</div><!-- light-bg-2 end -->
 
-
-			@endif
