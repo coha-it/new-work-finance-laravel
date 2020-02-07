@@ -15,6 +15,10 @@ span.Typewriter__wrapper:after {content:"\00a0";}
 }
 
 .coha--btn {
+    .border-btn-box {
+        backdrop-filter: blur(4px) brightness(.43);
+        background-color: rgba(0, 0, 0, 0.28);
+    }
     .border-btn-inner {
         // background-color: #fff;
     }
@@ -59,7 +63,7 @@ span.Typewriter__wrapper:after {content:"\00a0";}
     cursor: pointer;
 }
 
-p ol li {
+.bullets > li {
     list-style-type: disc;
     list-style-position: outside;
     margin-left: 25px;
@@ -82,12 +86,14 @@ p ol li {
 }
 
 // Brand Boxes:
-.client-list .brand-box.single {
-    .opac-img {
-        opacity: 1;
-        filter: grayscale(1) brightness(0.78);
-        margin: auto;
-        bottom: 0;
-        &:hover {filter: unset;}
+.client-list {
+    .brand-box.single {
+        .opac-img {
+            opacity: 1;
+            filter: grayscale(1) brightness(0.78);
+            margin: auto;
+            bottom: 0;
+        }
+        &:hover .opac-img {filter: unset;}
     }
 }
