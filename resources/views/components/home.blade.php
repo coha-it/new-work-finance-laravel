@@ -1,5 +1,8 @@
 
-            @include('components.contactbutton')
+
+@section('registerbutton')
+	@include('components.registerbutton')
+@endsection
 
             <!-- page-head start -->
 			<section id="up" class="page-head video-bg-box flex-min-height-box dark-bg-1" style="overflow: hidden">
@@ -27,7 +30,7 @@
                         <div class="overlay-loading2 overlay-light-bg-1 tr-delay04 top-margin-20">
                             <div class="border-btn-box pointer-large">
                                 <div class="border-btn-inner">
-                                    <a href="{{ route('contact') }}" class="border-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</a>
+                                    <a href="{{ route('register') }}" class="border-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</a>
                                 </div>
                             </div>
                         </div>
@@ -262,7 +265,7 @@
 			</section><!-- section end -->
 
             <div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">
-                <a href="{{ route('contact') }}" class="pointer-large overlay-btn-box">
+                <a href="{{ route('register') }}" class="pointer-large overlay-btn-box">
                     <span class="overlay-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</span>
                 </a>
             </div>
@@ -299,24 +302,38 @@
 						<li>
 							<a href="#" class="pointer-large d-block">
 								<div class="brand-box single">
-									<img src="{{ asset('assets/images/logos/itdz-berlin.svg') }}" alt="Brand" class="opac-img">
-								</div>
-							</a>
-                        </li>
-						<li>
-							<a href="#" class="pointer-large d-block">
-								<div class="brand-box single">
-									<img src="{{ asset('assets/images/logos/telekom.svg') }}" alt="Brand" class="opac-img">
-								</div>
-							</a>
-                        </li>
-						<li>
-							<a href="#" class="pointer-large d-block">
-								<div class="brand-box single">
-									<img src="{{ asset('assets/images/logos/jobcenter-muenchen.png') }}" alt="Brand" class="opac-img">
+									<img src="{{ asset('assets/images/logos/deutsche-bank.svg') }}" alt="Brand" class="opac-img">
 								</div>
 							</a>
 						</li>
+						<li>
+							<a href="#" class="pointer-large d-block">
+								<div class="brand-box single">
+									<img src="{{ asset('assets/images/logos/volksbank-l-bau-zittau.png') }}" alt="Brand" class="opac-img">
+								</div>
+							</a>
+						</li>
+						<li>
+								<a href="#" class="pointer-large d-block">
+									<div class="brand-box single">
+										<img src="{{ asset('assets/images/logos/naspa.png') }}" alt="Brand" class="opac-img">
+									</div>
+								</a>
+							</li>
+						<li>
+							<a href="#" class="pointer-large d-block">
+								<div class="brand-box single">
+									<img src="{{ asset('assets/images/logos/r-und-v-versicherungen.svg') }}" alt="Brand" class="opac-img">
+								</div>
+							</a>
+						</li>
+						<li>
+								<a href="#" class="pointer-large d-block">
+									<div class="brand-box single">
+										<img src="{{ asset('assets/images/logos/pax.svg') }}" alt="Brand" class="opac-img">
+									</div>
+								</a>
+							</li>
 						<li class="empty-spot-box">
 							<a data-animation-container href="#" class="pointer-large p-style-bold-up empty-spot d-block">
 								<span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="Dieser Platz">Dieser Platz</span>
@@ -336,52 +353,52 @@
 					<div class="swiper-wrapper">
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="{{ asset('assets/images/testimonials/adult-beanie-black-background-1529350.jpg') }}" alt="author">
+							<img src="{{ asset('assets/images/personen/claus-reder.jpg') }}" alt="author">
 							<div class="testimonials-content">
-								<p class="text-color-4 p-style-bold">Copper mug vexillologist +1 prism iPhone fashion axe portland. Hella quinoa woke blog af umami tacos freegan vinyl snackwave microdosing. Fanny pack direct trade XOXO drinking vinegar. Live-edge kinfolk master cleanse brooklyn meh organic man braid. Actually humblebrag sriracha authentic chia. IPhone glossier schlitz fam, la croix keytar retro offal. Artisan selfies mlkshk pinterest gastropub knausgaard live-edge.</p>
+								<p class="text-color-4 p-style-bold">»Nur wenn Mitarbeiter an ihrem Arbeitsplatz ihre Stärken einbringen können und mit Freude bei der Arbeit sind, tragen sie auch zu einem erheblichen Maß zum Erfolg des Unternehmens bei. Dadurch gelingt es uns, die Chancen und Herausforderungen, die vor uns liegen zu meistern.«</p>
 							</div>
 							<div class="text-color-1 small-title-oswald">
-								Balanchaev Balancha, <span class="text-color-2">Investor</span>
+								Claus Reder, <span class="text-color-2">Mitglied des Vorstandes, VR-Bank Würzburg</span>
 							</div>
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="{{ asset('assets/images/testimonials/pexels-photo-428340.jpeg') }}" alt="author">
+							<img src="{{ asset('assets/images/personen/dr-oliver-haas.jpg') }}" alt="author">
 							<div class="testimonials-content">
-								<p class="text-color-4 p-style-bold">Bushwick tumeric slow-carb photo booth letterpress franzen kombucha tumblr listicle cronut waistcoat mustache. Jean shorts tilde swag cray. Microdosing heirloom wayfarers YOLO, church-key tattooed cred blue bottle viral lyft tacos retro. Bespoke drinking vinegar single-origin coffee pop-up, whatever air plant austin hexagon selfies tattooed. Fixie taxidermy forage hot chicken, locavore church-key authentic coloring book.</p>
+								<p class="text-color-4 p-style-bold">»Langfristig erfolgreich sind nur die Betriebe, deren Mitarbeiter einen Sinn in ihrer Arbeit sehen, ihre Stärken einbringen können und begeistert sind!«</p>
 							</div>
 							<div class="text-color-1 small-title-oswald">
-								Fred Kinney, <span class="text-color-2">Designer</span>
+								Oliver Haas, <span class="text-color-2">Gründer und Geschäftsführer</span>
 							</div>
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="{{ asset('assets/images/testimonials/pexels-photo-764529.jpeg') }}" alt="author">
+							<img src="{{ asset('assets/images/personen/elisabeth-cartolaro.jpg') }}" alt="author">
 							<div class="testimonials-content">
-								<p class="text-color-4 p-style-bold">Pitchfork vaporware hella, vice next level art party subway tile swag portland. Cliche authentic photo booth, seitan sartorial iPhone brooklyn bicycle rights whatever small batch selvage affogato yuccie adaptogen vinyl. Sartorial franzen tacos cardigan, offal gluten-free pour-over snackwave plaid four dollar toast. Messenger bag keffiyeh church-key, synth iPhone pabst leggings ethical. PBR&B cred hot chicken pork belly.</p>
+								<p class="text-color-4 p-style-bold">»Die Kombination aus Erkenntnissen aus der Positiven Psychologie, umfangreichen Übungen und einem gemeinsamen Gruppenprozess bietet so viele Auseinandersetzungsmöglich­ keiten, dass es unmöglich ist, keine Wirkung zu erzielen. Sich neu mit sich selbst und dem Umfeld zu verbinden, dazu dient die Botschaftertätigkeit. Sie macht wirklich Spaß.«</p>
 							</div>
 							<div class="text-color-1 small-title-oswald">
-								Steve Kong, <span class="text-color-2">Web developer</span>
+									Elisabeth Cartolaro, <span class="text-color-2">Transformation Consultant und Coach, Deutsche Telekom AG</span>
 							</div>
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="{{ asset('assets/images/testimonials/pexels-photo-809433.jpeg') }}" alt="author">
+							<img src="{{ asset('assets/images/personen/armin-lipp.jpg') }}" alt="author">
 							<div class="testimonials-content">
-								<p class="text-color-4 p-style-bold">Chambray enamel pin synth shabby chic palo santo. Franzen 90's man bun wayfarers, put a bird on it twee four loko roof party shabby chic kale chips photo booth salvia mixtape lumbersexual. Pug kickstarter hammock unicorn, cardigan ennui celiac roof party. Ramps pitchfork direct trade, food truck tacos biodiesel craft beer. Af hammock listicle vape banjo echo park meditation organic cred subway tile. Echo park DIY.</p>
+								<p class="text-color-4 p-style-bold">»Die VR-Bank Würzburg ist ein Vorbild für ganz Deutschland. Ich freue mich sehr darauf, ein außergewöhn- liches Programm für inspirierte Unternehmer gemeinsam mit der VR-Bank durchzuführen.«</p>
 							</div>
 							<div class="text-color-1 small-title-oswald">
-								Balanchaev Balancha, <span class="text-color-2">Investor</span>
+								Armin Lipp, <span class="text-color-2">Trainer, Corporate Happiness®</span>
 							</div>
 						</div><!-- slide end -->
 						<!-- slide start -->
 						<div class="swiper-slide text-center">
-							<img src="{{ asset('assets/images/testimonials/pexels-photo-894156.jpeg') }}" alt="author">
+							<img src="{{ asset('assets/images/personen/holger-kerler.jpg') }}" alt="author">
 							<div class="testimonials-content">
-								<p class="text-color-4 p-style-bold">Pok pok authentic fashion axe, vegan venmo leggings raclette tousled twee tattooed. Banh mi humblebrag hammock tacos fashion axe aesthetic vegan sustainable taiyaki thundercats jean shorts tousled cloud bread waistcoat kogi. Cloud bread cardigan messenger bag raw denim swag drinking vinegar. Yuccie jianbing bespoke retro, photo booth salvia hella meh post-ironic cornhole tacos plaid.</p>
+								<p class="text-color-4 p-style-bold">»Das Zusammenspiel aus Erkenntnissen der Positiven Psychologie, praktischen Erkenntnissen durch Übungen sowie die gemeinsamen Workshops entfalten eine große Wirkung bei jedem einzelnen und in der gesamten Organisation.«</p>
 							</div>
 							<div class="text-color-1 small-title-oswald">
-								Fred Kinney, <span class="text-color-2">Designer</span>
+								Holger Kerler, <span class="text-color-2">Trainer, VR-Bank Würzburg</span>
 							</div>
 						</div><!-- slide end -->
 					</div><!-- swiper-wrapper end -->

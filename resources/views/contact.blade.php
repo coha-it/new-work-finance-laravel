@@ -4,7 +4,7 @@
 
 @section('content')
     {{-- Content --}}
-    @endsection
+@endsection
 
 @section('contactform')
     {{-- Contact --}}

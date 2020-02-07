@@ -38,10 +38,13 @@ class ContactCtrl extends Controller
     }
 
     protected function sendEmail ($data) {
-        // Build Message
-        \Mail::raw($this->buildMessage($data), function ($message) {
+        // Build and Send
+        $subject = $data['type'];
+        $body    = $this->buildMessage($data);
+
+        \Mail::raw($body, function ($message) use ($subject) {
             $message->from('info@corporate-happiness.de', 'New Work Finance');
-            $message->subject('New Work Finance - Kontaktformular');
+            $message->subject("New Work Finance - Formular: ".trans('values.'.$subject));
 
             // Receiver
             if (\App::environment(['local'])) {
@@ -66,8 +69,8 @@ class ContactCtrl extends Controller
 
     protected function createDatabaseContact($req) {
         Contact::create([
+            'type' => $req->data['type'],
             'email' => $req->data['email'],
-            'ip'    => $req->ip(),
             'firstname' => $req->data['firstname'],
             'lastname' => $req->data['lastname'],
             'position' => $req->data['position'],
@@ -77,12 +80,14 @@ class ContactCtrl extends Controller
             'company' => $req->data['company'],
             'ustid' => $req->data['ustid'],
             'message' => $req->data['message'],
-            'data'  => json_encode($req->data, JSON_FORCE_OBJECT)
+            'data'  => json_encode($req->data, JSON_FORCE_OBJECT),
+            'ip'    => $req->ip(),
         ]);
     }
 
     protected function validateData ($req) {
         return $req->validate([
+            'data.type' => 'required',
             'data.firstname' => 'required',
             'data.lastname' => 'required',
             'data.email' => 'required|email|max:255',

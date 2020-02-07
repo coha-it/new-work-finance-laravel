@@ -16,8 +16,8 @@ span.Typewriter__wrapper:after {content:"\00a0";}
 
 .coha--btn {
     .border-btn-box {
-        backdrop-filter: blur(4px) brightness(.43);
-        background-color: rgba(0, 0, 0, 0.28);
+        backdrop-filter: blur(5px) brightness(0.43);
+        background-color: rgba(0, 0, 0, 0);
     }
     .border-btn-inner {
         // background-color: #fff;
@@ -25,12 +25,25 @@ span.Typewriter__wrapper:after {content:"\00a0";}
 }
 
 .flying-wrapper {
+    transition: 0ms;
     position: fixed;
-    bottom: 25px;
+    bottom: 0;
+    transform: translateY(100%);
     left: 0;
     right: 0;
     z-index: 9999;
     text-align: center;
+    opacity: 0;
+}
+
+.to-top-btn._mPS2id-h + .flying-wrapper {
+    transition: transform 550ms 0ms, bottom 550ms 0ms, opacity 550ms 550ms;
+    opacity: 1;
+}
+
+.to-top-btn:not(.mPS2id-highlight) + .flying-wrapper {
+    transform: translateY(0%);
+    bottom: 25px;
 }
 
 .coha--cut-text-wrapper {
@@ -59,7 +72,8 @@ span.Typewriter__wrapper:after {content:"\00a0";}
 
 
 // App SCSS
-.pointer-large {
+.pointer-large,
+.swiper-pagination-clickable .swiper-pagination-bullet {
     cursor: pointer;
 }
 
@@ -94,6 +108,8 @@ span.Typewriter__wrapper:after {content:"\00a0";}
             margin: auto;
             bottom: 0;
         }
-        &:hover .opac-img {filter: unset;}
+        
     }
+
+    li:hover .brand-box.single .opac-img {filter: unset;}
 }

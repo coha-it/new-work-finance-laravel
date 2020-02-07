@@ -15,5 +15,6 @@ return [
     'ustid' => 'USTID',
     'message' => 'Nachricht',
     'data' => 'Daten',
-    'timestamp' => 'Zeitstempel'
+    'timestamp' => 'Zeitstempel',
+    'type' => 'Typ'
 ];

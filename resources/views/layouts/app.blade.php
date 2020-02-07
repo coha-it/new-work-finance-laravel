@@ -11,6 +11,7 @@
 	<body class="loader">
 		@include('components.loader')
         @include('components.totop')
+        @section('registerbutton') @show
         @include('components.header')
         @include('components.navigation')
 

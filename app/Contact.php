@@ -28,6 +28,7 @@ class Contact extends Model
         'company',
         'ustid',
         'message',
+        'type',
 
         'data'
     ];

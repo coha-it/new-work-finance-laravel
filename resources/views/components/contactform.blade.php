@@ -5,9 +5,25 @@
 				<div class="flex-min-height-inner">
 					<!-- container start -->
 					<div class="container small top-bottom-padding-120">
-						<h4 class="small-title-oswald text-color-4 text-center">Lasst uns in Kontakt treten</h4>
+						@if($type == 'contact')
+							<h4 class="small-title-oswald text-color-4 text-center">
+								Kontaktformular
+							</h4>
+						@else 
+							<div data-animation-container>
+								<h2 data-animation-child class="gold-color text-color-5 fade-anim-box tr-delay05" data-animation="fade-anim">
+									<span class="">Anmeldeformular</span>
+								</h2>
+							</div>
+							<h3 class="large-title-bold text-color-4">
+							 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Sichern Sie sich jetzt</span><br>
+							 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Ihre Anmeldung</span><br>
+                        	</h3>
+						@endif
+
 						<!-- flex-container start -->
-                        <form class="flex-container top-padding-90" method="POST" action="{{ route('scf') }}">
+						<form class="flex-container top-padding-90" method="POST" action="{{ route('scf') }}">
+							<input type="hidden" name="data[type]" id="type" value="{{ $type ? $type : 'register' }}" />
                             @csrf
 							<!-- column start -->
 							<div class="four-columns">

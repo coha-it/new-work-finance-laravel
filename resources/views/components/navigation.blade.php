@@ -47,6 +47,13 @@
                 </li><!-- nav-box end -->
 
 				<li class="nav-box nav-bg-change">
+					<a href="{{ route('register') }}" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+						<span class="nav-btn" data-text="Anmelden">Anmelden</span>
+					</a>
+					<div class="nav-bg" style="background-image:url({{ asset('assets/images/mailing/mailing0.jpg') }});"></div>
+				</li><!-- nav-box end -->
+				
+				<li class="nav-box nav-bg-change">
 					<a href="{{ route('contact') }}" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
 						<span class="nav-btn" data-text="Kontakt">Kontakt</span>
 					</a>
@@ -59,16 +66,6 @@
 					</a>
 					<div class="nav-bg"></div>
                 </li><!-- nav-box end -->
-
-{{--
-                <!-- nav-box start -->
-				<li class="nav-box nav-bg-change">
-					<a href="contact.html" class="animsition-link pointer-large nav-link">
-						<span class="nav-btn" data-text="Contact">Contact</span>
-					</a>
-					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/double-exposure-2390185_1920.jpg);"></div>
-                </li><!-- nav-box end -->
---}}
 
 			</ul><!-- nav-menu end -->
 		</nav><!-- nav-container end -->
