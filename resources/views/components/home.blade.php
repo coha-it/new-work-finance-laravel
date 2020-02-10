@@ -176,7 +176,7 @@
 								<!-- column start -->
 								<div class="six-columns top-padding-60">
 									<div class="portfolio-content-bg-box pointer-large hover-box hidden-box">
-										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url(assets/images/projects/inviting/inviting-AdobeStock_74172486.jpg)"></div>
+										<div class="portfolio-content-bg hover-img overlay-anim-box2 overlay-dark-bg-2" data-animation="overlay-anim2" style="background-image:url({{ asset('assets/images/projects/inviting/inviting-bilger-9103.jpg') }})"></div>
 									</div>
 								</div><!-- column end -->
 								<!-- column start -->

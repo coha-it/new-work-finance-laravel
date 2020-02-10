@@ -36,7 +36,7 @@
 					<a href="#Inviting" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
 						<span class="nav-btn" data-text="Inviting">Inviting</span>
 					</a>
-					<div class="nav-bg" style="background-image:url({{ asset('assets/images/projects/inviting/inviting-AdobeStock_74172486.jpg') }});"></div>
+					<div class="nav-bg" style="background-image:url({{ asset('assets/images/projects/inviting/inviting-bilger-9103.jpg') }});"></div>
                 </li><!-- nav-box end -->
 
 				<li class="nav-box nav-bg-change">
