@@ -48,12 +48,12 @@
 												</a>
 											</div>
 										</div>
-										&nbsp;
+										{{-- &nbsp;
 										<div class="border-btn-box border-btn-red pointer-large top-margin-10">
 											<div class="border-btn-inner">
 													<a href="{{ route('register') }}" class="border-btn" data-text="Anmelden">Anmelden</a>
 											</div>
-										</div>
+										</div> --}}
 									</div>
 								</div>
 							</div>
