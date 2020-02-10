@@ -25,7 +25,7 @@
 										<span data-animation-child class="overlay-anim-box2 overlay-light-bg-1 tr-delay03" data-animation="overlay-anim2">E-Mail</span>
 									</p>
 									<h6 data-animation-child class="flip-btn-box fade-anim-box tr-delay04" data-animation="fade-anim">
-										<a href="mailto:info@corporate-happiness.de" target="_blank" class="flip-btn pointer-large" data-text="info@corporate-happiness.de">info@corporate-happiness.de</a>
+										<a href="mailto:schmidt@corporate-happiness.de" target="_blank" class="flip-btn pointer-large" data-text="schmidt@corporate-happiness.de">schmidt@corporate-happiness.de</a>
 									</h6>
 								</div>
 							</div><!-- column end -->
