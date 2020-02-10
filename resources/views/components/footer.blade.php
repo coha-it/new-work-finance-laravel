@@ -28,9 +28,9 @@
 		<div class="four-columns bottom-padding-60">
 			<div class="content-left-right-margin-10 footer-center-mobile">
 				<ul class="footer-information text-color-4">
-					<li><i class="far fa-envelope"></i><a href="#" class="xsmall-title-oswald">info@corporate-happiness.de</a></li>
-					<li><i class="fas fa-mobile-alt"></i><a href="#" class="xsmall-title-oswald">+49 89 890 673 177</a></li>
-					<li><i class="fas fa-map-marker-alt"></i><a href="#" class="xsmall-title-oswald text-height-17">Gewürzmühlstraße 17<br><span>80538 München, Bayern</span></a></li>
+					<li><i class="far fa-envelope"></i><a href="mailto:schmidt@corporate-happiness.de" target="_blank" class="xsmall-title-oswald">schmidt@corporate-happiness.de</a></li>
+					<li><i class="fas fa-mobile-alt"></i><a href="tel:4989890673177" target="_blank" class="xsmall-title-oswald">+49 89 890 673 177</a></li>
+					<li><i class="fas fa-map-marker-alt"></i><a href="https://goo.gl/maps/cEGz639nqHe3aEhE9" target="_blank" class="xsmall-title-oswald text-height-17">Gewürzmühlstraße 17<br><span>80538 München, Bayern</span></a></li>
 				</ul>
 			</div>
 		</div><!-- column end -->
