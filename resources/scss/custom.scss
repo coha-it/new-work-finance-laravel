@@ -31,7 +31,7 @@ span.Typewriter__wrapper:after {content:"\00a0";}
     transform: translateY(100%);
     left: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 9;
     text-align: center;
     opacity: 0;
 }
@@ -112,4 +112,25 @@ span.Typewriter__wrapper:after {content:"\00a0";}
     }
 
     li:hover .brand-box.single .opac-img {filter: unset;}
+}
+
+.dark-bg-1 {
+    .fas {
+        color: #fff;
+    }
+}
+
+.coha-fa {
+    font-size: 3em;
+    width: 20px;
+    z-index: 99999;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mfp-iframe-holder .mfp-content {
+    max-width: 2250px;
 }

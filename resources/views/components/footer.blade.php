@@ -16,6 +16,7 @@
 					<li><a class="pointer-large small-title-oswald hover-color" href="{{ route('home') }}#Digitalisierung">Digitalisierung</a></li>
 					<li><a class="pointer-large small-title-oswald hover-color" href="{{ route('home') }}#Inviting">Inviting</a></li>
 					<li><a class="pointer-large small-title-oswald hover-color" href="{{ route('home') }}#Fusion">Fusion</a></li>
+                    <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('home') }}#ZurAusbildung">Zur Ausbildung</a></li>
                     <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('register') }}">Anmelden</a></li>
                     <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('contact') }}">Kontakt</a></li>
                     <li><a class="pointer-large small-title-oswald hover-color" href="{{ route('imprint') }}">Impressum</a></li>

@@ -264,6 +264,11 @@
 
 			</section><!-- section end -->
 
+
+
+			@include('components/training01')
+
+
             <div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">
                 <a href="{{ route('register') }}" class="pointer-large overlay-btn-box">
                     <span class="overlay-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</span>

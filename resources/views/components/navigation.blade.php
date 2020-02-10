@@ -44,7 +44,15 @@
 						<span class="nav-btn" data-text="Corporate Identity">Corporate Identity</span>
 					</a>
 					<div class="nav-bg" style="background-image:url({{ asset('assets/images/projects/fusion/fusion-1.jpg') }});"></div>
-                </li><!-- nav-box end -->
+				</li><!-- nav-box end -->
+				
+
+				<li class="nav-box nav-bg-change">
+						<a href="#ZurAusbildung" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
+							<span class="nav-btn" data-text="Zur Ausbildung">Zur Ausbildung</span>
+						</a>
+						<div class="nav-bg" style="background-image:url({{ asset('assets/images/projects/startseite/frankfurt-body-of-water-near-trees-1124460.jpg') }});"></div>
+					</li><!-- nav-box end -->
 
 				<li class="nav-box nav-bg-change">
 					<a href="{{ route('register') }}" class="pointer-large nav-link" onclick="$('.menu-open, .nav-container').removeClass('active');">
