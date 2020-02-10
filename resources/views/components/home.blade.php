@@ -27,7 +27,7 @@
 									<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Vorreiter der </span><br>
 									<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Branche werden!</span>
 								</h3>
-								<h2 class="small-title-oswald overlay-loading2 overlay-light-bg-1 gold-color tr-delay04 animated overlay-anim2">Start: 22. Oktober 2020</h2>
+								<h2 class="small-title-oswald overlay-loading2 overlay-light-bg-1 gold-color tr-delay04 animated overlay-anim2">Start: 22. Oktober 2020&nbsp;&nbsp;|&nbsp;&nbsp;Frankfurt</h2>
 								<br>
 								<div class="overlay-loading2 overlay-light-bg-1 tr-delay05 top-margin-20">
 										<div class="border-btn-box pointer-large">
