@@ -23,17 +23,19 @@
 		  			<div class="container top-bottom-padding-120">
 		  				<h2 class="overlay-loading2 medium-title gold-color">New Work Finance</h2>
 				  	    <h3 class="large-title-bold text-color-4">
-						 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay01">Mit Innovation zum </span><br>
-						 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Vorreiter der </span><br>
-						 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Branche werden!</span>
-                        </h3>
-                        <div class="overlay-loading2 overlay-light-bg-1 tr-delay04 top-margin-20">
-                            <div class="border-btn-box pointer-large">
-                                <div class="border-btn-inner">
-                                    <a href="{{ route('register') }}" class="border-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</a>
-                                </div>
-                            </div>
-                        </div>
+									<span class="overlay-loading2 overlay-light-bg-1 tr-delay01">Mit Innovation zum </span><br>
+									<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Vorreiter der </span><br>
+									<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Branche werden!</span>
+								</h3>
+								<h2 class="small-title-oswald overlay-loading2 overlay-light-bg-1 gold-color tr-delay04 animated overlay-anim2">Start: 22. Oktober 2020</h2>
+								<br>
+								<div class="overlay-loading2 overlay-light-bg-1 tr-delay05 top-margin-20">
+										<div class="border-btn-box pointer-large">
+												<div class="border-btn-inner">
+														<a href="{{ route('register') }}" class="border-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</a>
+												</div>
+										</div>
+								</div>
 		  			</div><!-- container end -->
 	  			</div><!-- flex-min-height-inner end -->
 
