@@ -273,7 +273,7 @@
 
             <div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">
                 <a href="{{ route('register') }}" class="pointer-large overlay-btn-box">
-                    <span class="overlay-btn" data-text="Jetzt Anmelden">Jetzt Anmelden</span>
+                    <span class="overlay-btn" data-text="Zur Anmeldung">Zur Anmeldung</span>
                 </a>
             </div>
 
