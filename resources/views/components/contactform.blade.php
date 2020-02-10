@@ -12,13 +12,14 @@
 						@else 
 							<div data-animation-container>
 								<h2 data-animation-child class="gold-color text-color-5 fade-anim-box tr-delay05" data-animation="fade-anim">
-									<span class="">Anmeldeformular</span>
+									<span class="">Ihre Investition für die Zukunft</span>
 								</h2>
 							</div>
 							<h3 class="large-title-bold text-color-4">
 							 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay02">Sichern Sie sich jetzt</span><br>
 							 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Ihre Anmeldung</span><br>
-                        	</h3>
+							</h3>
+							<p class="p-style-large text-color-5 fade-anim-box tr-delay07" data-animation="fade-anim">Kosten für einen Ausbildungsplatz: 7.500,- € zzgl. MwSt. Im Preis enthalten sind bereits alle Lernmaterialien. Rabattierte Gruppenpreise sind möglich, bitte schicken Sie uns Ihre Anfrage.</p>
 						@endif
 
 						<!-- flex-container start -->
@@ -92,6 +93,6 @@
 								</button>
 							</div><!-- column end -->
 						</form><!-- flex-container end -->
-					</div><!-- container end -->
+					</p><!-- container end -->
 				</div><!-- flex-min-height-inner end -->
             </section><!-- contact-form-box end -->
