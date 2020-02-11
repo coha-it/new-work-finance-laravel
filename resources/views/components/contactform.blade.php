@@ -20,6 +20,13 @@
 							 	<span class="overlay-loading2 overlay-light-bg-1 tr-delay03">Ihre Anmeldung</span><br>
 							</h3>
 							<p class="p-style-large text-color-5 fade-anim-box tr-delay07" data-animation="fade-anim">Kosten für einen Ausbildungsplatz: 7.500,- € zzgl. MwSt. Im Preis enthalten sind bereits alle Lernmaterialien. Rabattierte Gruppenpreise sind möglich, bitte schicken Sie uns Ihre Anfrage.</p>
+							<div class="top-margin-10 border-btn-box pointer-large fade-anim-box tr-delay09" data-animation="fade-anim">
+								<div class="border-btn-inner">
+									<a href="{{ asset('assets/files/new-work-finance-infos-web.pdf')}}" target="_blank" class="border-btn popup-youtube" target="_blank"  data-text="Info-PDF">
+										Info-PDF
+									</a>
+								</div>
+							</div>
 						@endif
 
 						<!-- flex-container start -->

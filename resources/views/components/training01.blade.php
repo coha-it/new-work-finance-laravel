@@ -1,5 +1,5 @@
 				<!-- top-padding-90 start -->
-				<div class="top-padding-90 bottom-padding-90 dark-bg-1" id="ZurAusbildung">
+				<div class="top-padding-20 bottom-padding-90 dark-bg-1" id="ZurAusbildung">
 					<!-- container start -->
 					<div class="container">
 						<div class="services-bg" style="background-image:url({{ asset('assets/images/projects/startseite/frankfurt-body-of-water-near-trees-1124460.jpg') }}); background-position: center 25%;"></div>	

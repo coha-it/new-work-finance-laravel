@@ -104,6 +104,8 @@
         </div> -->
         <!-- container end -->
 
+		@include('components/training01')
+
 				<!-- bottom-padding-90 start -->
 				<div class="bottom-padding-90" id="Digitalisierung">
 					<!-- portfolio-content start -->
@@ -265,11 +267,6 @@
 				</div><!-- bottom-padding-90 end -->
 
 			</section><!-- section end -->
-
-
-
-			@include('components/training01')
-
 
             <div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">
                 <a href="{{ route('register') }}" class="pointer-large overlay-btn-box">
