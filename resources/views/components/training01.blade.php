@@ -2,15 +2,15 @@
 				<div class="top-padding-20 bottom-padding-90 dark-bg-1" id="ZurAusbildung">
 					<!-- container start -->
 					<div class="container">
-						<div class="services-bg" style="background-image:url({{ asset('assets/images/projects/startseite/frankfurt-body-of-water-near-trees-1124460.jpg') }}); background-position: center 25%;"></div>	
+						<div class="services-bg" style="background-image:url({{ asset('assets/images/projects/startseite/frankfurt-body-of-water-near-trees-1124460.jpg') }}); background-position: center 25%;"></div>
 					</div><!-- container end -->
-					
+
 					<!-- flex-container start -->
 					<div class="container small top-padding-60 flex-container response-999 services-content">
 						<!-- column start -->
 						<div class="four-columns">
 							<div data-animation-container class="content-right-margin-20 bottom-margin-20">
-								<h2 data-animation-child class="small-title-oswald gold-color overlay-anim-box2" data-animation="overlay-anim2">Termine</h2>
+								<h2 data-animation-child class="small-title-oswald gold-color overlay-anim-box2" data-animation="overlay-anim2">Termine&nbsp;&nbsp;|&nbsp;&nbsp;Frankfurt</h2>
 								<h3 class="title-style text-color-4">
 									<span data-animation-child class="overlay-anim-box2 overlay-light-bg-1 tr-delay01" data-animation="overlay-anim2">New-Work-Finance</span><br>
 									<span data-animation-child class="overlay-anim-box2 overlay-light-bg-1 tr-delay02" data-animation="overlay-anim2">Ausbildung</span><br>
