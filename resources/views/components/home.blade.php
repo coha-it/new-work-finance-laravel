@@ -337,7 +337,7 @@
 								</a>
 							</li>
 						<li class="empty-spot-box">
-							<a data-animation-container href="#" class="pointer-large p-style-bold-up empty-spot d-block">
+							<a data-animation-container href="{{ route('contact') }}" class="pointer-large p-style-bold-up empty-spot d-block">
 								<span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="Dieser Platz">Dieser Platz</span>
 								<span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="wartet">wartet</span>
 								<span data-animation-child class="title-fill tr-delay02" data-animation="title-fill-anim" data-text="auf Sie">auf Sie</span>
