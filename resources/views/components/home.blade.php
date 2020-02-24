@@ -104,6 +104,8 @@
         </div> -->
         <!-- container end -->
 
+		@include('components/training01')
+
 				<!-- bottom-padding-90 start -->
 				<div class="bottom-padding-90" id="Digitalisierung">
 					<!-- portfolio-content start -->
@@ -266,11 +268,6 @@
 
 			</section><!-- section end -->
 
-
-
-			@include('components/training01')
-
-
             <div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">
                 <a href="{{ route('register') }}" class="pointer-large overlay-btn-box">
                     <span class="overlay-btn" data-text="Zur Anmeldung">Zur Anmeldung</span>
@@ -340,7 +337,7 @@
 								</a>
 							</li>
 						<li class="empty-spot-box">
-							<a data-animation-container href="#" class="pointer-large p-style-bold-up empty-spot d-block">
+							<a data-animation-container href="{{ route('contact') }}" class="pointer-large p-style-bold-up empty-spot d-block">
 								<span data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="Dieser Platz">Dieser Platz</span>
 								<span data-animation-child class="title-fill tr-delay01" data-animation="title-fill-anim" data-text="wartet">wartet</span>
 								<span data-animation-child class="title-fill tr-delay02" data-animation="title-fill-anim" data-text="auf Sie">auf Sie</span>

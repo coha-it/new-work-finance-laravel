@@ -73,8 +73,14 @@ span.Typewriter__wrapper:after {content:"\00a0";}
 
 // App SCSS
 .pointer-large,
-.swiper-pagination-clickable .swiper-pagination-bullet {
-    cursor: pointer;
+.swiper-pagination-clickable .swiper-pagination-bullet,
+.mfp-close,
+.mfp-gallery .mfp-image-holder .mfp-figure,
+.mfp-zoom,
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close,
+button.mfp-arrow {
+    cursor: pointer !important;
 }
 
 .bullets > li {
@@ -108,7 +114,7 @@ span.Typewriter__wrapper:after {content:"\00a0";}
             margin: auto;
             bottom: 0;
         }
-        
+
     }
 
     li:hover .brand-box.single .opac-img {filter: unset;}
@@ -138,3 +144,4 @@ span.Typewriter__wrapper:after {content:"\00a0";}
 .contact-form-control {
     font-size: 16px;
 }
+
