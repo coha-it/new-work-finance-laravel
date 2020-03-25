@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+require('laravel-mix-purgecss');
 
 /*
  |--------------------------------------------------------------------------
@@ -17,9 +18,13 @@ mix.sass('resources/scss/custom.scss', 'public/dist/css/custom.css');
 
 // LIVE
 if (mix.inProduction()) {
-    mix.styles(['public/assets/css/plugins.css','public/assets/css/style.css', 'public/dist/css/custom.css'],'public/assets/css/combined.min.css');
-    mix.combine(['public/assets/js/plugins.js', 'public/assets/js/typewriter.js', 'public/dist/js/app.js'], 'public/assets/js/combined.min.js');
-    mix.version();
+    mix
+        .styles(['public/assets/css/plugins.css','public/assets/css/style.css', 'public/dist/css/custom.css'],'public/assets/css/combined.min.css')
+        .combine(['public/assets/js/plugins.js', 'public/assets/js/typewriter.js', 'public/dist/js/app.js'], 'public/assets/js/combined.min.js')
+        .version()
+        .purgeCss();
 }
 // DEV / LOCAL
-else {}
+else {
+    // mix.purgeCss();
+}
