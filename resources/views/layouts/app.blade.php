@@ -15,7 +15,7 @@
         @include('components.header')
         @include('components.navigation')
 
-		<!-- animsition-overlay start -->
+		{{-- animsition-overlay start --}}
 		<main class="animsition-overlay" data-animsition-overlay="true">
 
             @section('message')
@@ -27,7 +27,7 @@
             @section('contactform')
                 {{-- @include('components.contactform') --}}
             @show
-        </main><!-- animsition-overlay end -->
+        </main>{{-- animsition-overlay end --}}
 
         @include('components.footer')
         @include('components.scripts')
