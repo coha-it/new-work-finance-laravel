@@ -3,11 +3,11 @@
 @section('title', 'New Work Finance | Mit Innovation durch Vorreiter der Branche werden!')
 
 @section('content')
-    <!-- page-head start -->
+    {{-- page-head start --}}
     <section id="up" class="page-head video-bg-box flex-min-height-box imprint">
-        <!-- flex-min-height-inner start -->
+        {{-- flex-min-height-inner start --}}
         <div class="flex-min-height-inner">
-            <!-- container start -->
+            {{-- container start --}}
             <div class="container top-bottom-padding-120">
                 <h2 class="overlay-loading2 tr-delay03 medium-title gold-color">New Work Finance</h2>
                 <h3 class="large-title-bold text-color-4">

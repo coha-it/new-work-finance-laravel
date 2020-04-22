@@ -13,14 +13,14 @@
     {!! implode('', $errors->all('<div>:message</div>')) !!}
 @endif
 
-			<!-- page-head start -->
+			{{-- page-head start --}}
 			<section id="up" class="page-head flex-min-height-box dark-bg-2 typewriter-home">
-				<!-- page-head-bg -->
+				{{-- page-head-bg --}}
 				<div class="page-head-bg" style="background-image: url({{ url('assets/images/mailing/mailing1.jpg') }});"></div>
 
-				<!-- flex-min-height-inner start -->
+				{{-- flex-min-height-inner start --}}
 	  			<div class="flex-min-height-inner">
-		  			<!-- container start -->
+		  			{{-- container start --}}
 		  			<div class="container top-bottom-padding-120">
 					  	<h2 class="overlay-loading2 medium-title gold-color">Ihre Nachricht wurde versendet</h2>
 				  		<h3 class="large-title-bold text-color-4">
@@ -33,11 +33,11 @@
 							<span class="small-title-oswald text-height-20 fade-loading tr-delay05 top-margin-10">Innovation</span>
 							<span class="small-title-oswald text-height-20 fade-loading tr-delay06 top-margin-10">Ideenreichtum</span>
 						</p>
-		  			</div><!-- container end -->
-	  			</div><!-- flex-min-height-inner end -->
+		  			</div>{{-- container end --}}
+	  			</div>{{-- flex-min-height-inner end --}}
 
 	  			@include('components.scrolldown')
-            </section><!-- page-head end -->
+            </section>{{-- page-head end --}}
 
 @endsection
 
