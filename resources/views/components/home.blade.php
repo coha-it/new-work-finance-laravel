@@ -96,7 +96,7 @@
 			</section><!-- flex-min-height-box end -->
 
 			<!-- section start -->
-			<section class="light-bg-1 bottom-padding-30 top-padding-0" data-midnight="black">
+			<section class="dark-bg-1 bottom-padding-30 top-padding-0" data-midnight="black">
 				<!-- container start -->
 				<!-- <div data-animation-container class="container small bottom-padding-60 text-center">
 					<h2 data-animation-child class="large-title text-height-10 text-color-1 overlay-anim-box2" data-animation="overlay-anim2">Recent Works</h2><br>
