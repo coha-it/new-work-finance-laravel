@@ -97,7 +97,7 @@
 			</section><!-- flex-min-height-box end -->
 
 			<!-- section start -->
-			<section class="dark-bg-1 bottom-padding-30 top-padding-0" data-midnight="black">
+			<section class="dark-bg-1 bottom-padding-30 top-padding-0">
 				<!-- container start -->
 				<!-- <div data-animation-container class="container small bottom-padding-60 text-center">
 
