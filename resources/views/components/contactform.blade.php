@@ -9,7 +9,7 @@
 							<h4 class="small-title-oswald text-color-4 text-center">
 								Kontaktformular
 							</h4>
-						@else 
+						@else
 							<div data-animation-container>
 								<h2 data-animation-child class="gold-color text-color-5 fade-anim-box tr-delay05" data-animation="fade-anim">
 									<span class="">Ihre Investition für die Zukunft</span>
@@ -93,6 +93,8 @@
 							</div><!-- column end -->
 							<!-- column start -->
 	                        <div class="twelve-columns text-center top-padding-90">
+                                @include('components.recaptcha')
+
 								<button class="border-btn-box pointer-large">
 									<span class="border-btn-inner">
 								      	<span class="border-btn" data-text="Absenden">Absenden</span>

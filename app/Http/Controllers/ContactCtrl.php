@@ -9,6 +9,11 @@ class ContactCtrl extends Controller
 {
     public function sendContactForm(Request $req) {
 
+        // Check Recaptcha
+        if (!$this->checkRecaptcha($req)) {
+            return back()->withErrors(['captcha' => 'ReCaptcha Error']);
+        }
+
         // Into Database
         $this->createDatabaseContact($req);
 
@@ -26,6 +31,38 @@ class ContactCtrl extends Controller
             return $this->view($data);
         } else {
             return $this->redirect();
+        }
+    }
+
+    protected function checkRecaptcha($req) {
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $remoteip = $_SERVER['REMOTE_ADDR'];
+        $data = [
+            'secret' => config('services.recaptcha.secret'),
+            'response' => $req->get('recaptcha'),
+            'remoteip' => $remoteip
+        ];
+        $options = [
+            'http' => [
+              'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+              'method' => 'POST',
+              'content' => http_build_query($data)
+            ]
+        ];
+        $context = stream_context_create($options);
+        $result = file_get_contents($url, false, $context);
+        $resultJson = json_decode($result);
+
+        // dd($result);
+
+        if ($resultJson->success != true) {
+            return false;
+        }
+        if ($resultJson->score >= 0.3) {
+            //Validation was successful, add your form submission logic here
+            return true;
+        } else {
+            return false;
         }
     }
 
