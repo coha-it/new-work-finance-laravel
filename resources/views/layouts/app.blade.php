@@ -7,6 +7,18 @@
         <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/images/favicons/favicon.png') }}">
         <link rel="shortcut icon" href="{{ asset('assets/images/favicons/favicon.ico') }}">
         @include('components.styles')
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18710254-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18710254-4');
+</script>
+
+
 	</head>
 	<body class="loader">
 		@include('components.loader')
